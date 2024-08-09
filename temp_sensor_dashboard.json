@@ -1,0 +1,3061 @@
+[
+    {
+        "id": "bc70283693a5505d",
+        "type": "tab",
+        "label": "Temp Sensor Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f769dfedbb3f9361",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c73832561b1e097b",
+            "55cd926a43f6b5d0",
+            "a533cdabe25bbcc5",
+            "615974c7a01d8948",
+            "e803cd54e4e081bb",
+            "ba536606976c0c0a",
+            "cf93dd3c8d08bd3a",
+            "64900bd708ae264e",
+            "b0c5a11c65a04ec2",
+            "f6fb98a8cd22d3c4",
+            "488968eed61e42e8",
+            "4a81730fede584ba",
+            "ea871f71a3d935d8",
+            "45fdb4ed620d56fd",
+            "158d25ae0e8a9820"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 932,
+        "h": 322
+    },
+    {
+        "id": "9d38849303bb0904",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "37746e402dc0d5a7",
+            "f739b3407e613c41",
+            "2e5027e76ceb2584",
+            "2bcb830197212210",
+            "80e5ddfad95928f1",
+            "c122a3610a1271e5",
+            "5cfdae0cc77b851d",
+            "3089793277f46e05",
+            "b118f0e7d18962f5",
+            "82ce3dee15b00e14",
+            "3582f6808561444a",
+            "9cd7d11e0fce3d9e",
+            "646e0f3f20368094",
+            "ac419fa6bc36883d",
+            "696de90e3f4df436"
+        ],
+        "x": 74,
+        "y": 419,
+        "w": 932,
+        "h": 302
+    },
+    {
+        "id": "c79106f3978724b1",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "be1d88a54079f559",
+            "514ca58e1a0b9998",
+            "0e5467e442361569",
+            "aff3462d9231303f",
+            "ccc7c69b63ecc3fa",
+            "0ef0e35ae2df7ddc",
+            "866726cf10160da8",
+            "ead5219c8c2a1df1",
+            "9f7c0c947c02e812",
+            "75ef07c4ad71a9e9",
+            "eb3a677c65e3d43e",
+            "35d1502c601fe8be",
+            "5a365871cd4171e0",
+            "e28a1b6545d8f88c",
+            "8e40ffae6ceb8e0f"
+        ],
+        "x": 74,
+        "y": 779,
+        "w": 932,
+        "h": 302
+    },
+    {
+        "id": "c95b710f0ef9ba35",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a2da559b3aee3cac",
+            "9bde71c0c7ae22d8",
+            "3a6d8130dd111692",
+            "843306742c87cca7",
+            "808d79b4c881e393",
+            "095a1ae08ec1140d",
+            "b189cbe958ad48e9",
+            "7a59773f3316ea80",
+            "0eb2880ada7beaba",
+            "f337f8a3e76df055",
+            "9b99fda537e90599",
+            "76e0d6f24975cb7f",
+            "048740a15c8911a7",
+            "29055774fb469802",
+            "9219cc7811e28215"
+        ],
+        "x": 74,
+        "y": 1139,
+        "w": 932,
+        "h": 302
+    },
+    {
+        "id": "fc506b576d0bcef0",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bd372aed04631208",
+            "1448fa4280994e6a",
+            "39dc16886c52c3a3",
+            "9f428113b4d17208",
+            "cf11b0139d15f504",
+            "137b5b4e82797e01",
+            "c9d79a214925595f",
+            "301139d4436286a3",
+            "c7d3430d192cb84e",
+            "e44ddd4d97874dec",
+            "211389631c60578b",
+            "bfbcaeb6808ae830",
+            "443564a756d194e6",
+            "e899a59139513804",
+            "53c03897a3a1f2c4"
+        ],
+        "x": 74,
+        "y": 1479,
+        "w": 932,
+        "h": 302
+    },
+    {
+        "id": "3a9c1833b4c05e0a",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5046a6a15ee7d97f",
+            "8c3839aadb02f512",
+            "d9860eca5db39148",
+            "5350d03e715d0051",
+            "a813a186d13bed0a",
+            "c0ba90ae9869a099",
+            "8c9268612330ee5b",
+            "9ea9c00b920c1124",
+            "47fa8d2e317be4f5",
+            "8bf11a9034adc962",
+            "4483fc54dbd049b6",
+            "0b9f735f39b341f7",
+            "9d332d132e44a12b",
+            "e4af75d969b4995d",
+            "c01c18f5aa2a779e"
+        ],
+        "x": 74,
+        "y": 1819,
+        "w": 932,
+        "h": 302
+    },
+    {
+        "id": "c73832561b1e097b",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "615974c7a01d8948",
+                "cf93dd3c8d08bd3a",
+                "4a81730fede584ba",
+                "ea871f71a3d935d8"
+            ]
+        ]
+    },
+    {
+        "id": "55cd926a43f6b5d0",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "a533cdabe25bbcc5"
+            ]
+        ]
+    },
+    {
+        "id": "a533cdabe25bbcc5",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-01\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "c73832561b1e097b"
+            ]
+        ]
+    },
+    {
+        "id": "615974c7a01d8948",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 140,
+        "wires": [
+            [
+                "b0c5a11c65a04ec2"
+            ]
+        ]
+    },
+    {
+        "id": "e803cd54e4e081bb",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "d6de265f36f661c0",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "ba536606976c0c0a"
+            ]
+        ]
+    },
+    {
+        "id": "ba536606976c0c0a",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-01\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "c73832561b1e097b"
+            ]
+        ]
+    },
+    {
+        "id": "cf93dd3c8d08bd3a",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 200,
+        "wires": [
+            [
+                "64900bd708ae264e"
+            ]
+        ]
+    },
+    {
+        "id": "64900bd708ae264e",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Humidity",
+        "group": "d6de265f36f661c0",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0c5a11c65a04ec2",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Temperature",
+        "group": "d6de265f36f661c0",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6fb98a8cd22d3c4",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "",
+        "group": "d6de265f36f661c0",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "a533cdabe25bbcc5"
+            ]
+        ]
+    },
+    {
+        "id": "488968eed61e42e8",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Illuminance",
+        "group": "d6de265f36f661c0",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a81730fede584ba",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 260,
+        "wires": [
+            [
+                "488968eed61e42e8"
+            ]
+        ]
+    },
+    {
+        "id": "ea871f71a3d935d8",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 320,
+        "wires": [
+            [
+                "45fdb4ed620d56fd"
+            ]
+        ]
+    },
+    {
+        "id": "45fdb4ed620d56fd",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "UV Intensity",
+        "group": "d6de265f36f661c0",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "158d25ae0e8a9820",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "group": "d6de265f36f661c0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 480,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "37746e402dc0d5a7",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 580,
+        "wires": [
+            [
+                "2bcb830197212210",
+                "5cfdae0cc77b851d",
+                "9cd7d11e0fce3d9e",
+                "646e0f3f20368094"
+            ]
+        ]
+    },
+    {
+        "id": "f739b3407e613c41",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "2e5027e76ceb2584"
+            ]
+        ]
+    },
+    {
+        "id": "2e5027e76ceb2584",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-02\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "37746e402dc0d5a7"
+            ]
+        ]
+    },
+    {
+        "id": "2bcb830197212210",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Temperature",
+        "func": "var results = msg.payload;\nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 500,
+        "wires": [
+            [
+                "b118f0e7d18962f5"
+            ]
+        ]
+    },
+    {
+        "id": "80e5ddfad95928f1",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "4c0dae9a2cd86da7",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "c122a3610a1271e5"
+            ]
+        ]
+    },
+    {
+        "id": "c122a3610a1271e5",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-02\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 660,
+        "wires": [
+            [
+                "37746e402dc0d5a7"
+            ]
+        ]
+    },
+    {
+        "id": "5cfdae0cc77b851d",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "3089793277f46e05"
+            ]
+        ]
+    },
+    {
+        "id": "3089793277f46e05",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Humidity",
+        "group": "4c0dae9a2cd86da7",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b118f0e7d18962f5",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Temperature",
+        "group": "4c0dae9a2cd86da7",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82ce3dee15b00e14",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "",
+        "group": "4c0dae9a2cd86da7",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "2e5027e76ceb2584"
+            ]
+        ]
+    },
+    {
+        "id": "3582f6808561444a",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Illuminance",
+        "group": "4c0dae9a2cd86da7",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9cd7d11e0fce3d9e",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 620,
+        "wires": [
+            [
+                "3582f6808561444a"
+            ]
+        ]
+    },
+    {
+        "id": "646e0f3f20368094",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 680,
+        "wires": [
+            [
+                "ac419fa6bc36883d"
+            ]
+        ]
+    },
+    {
+        "id": "ac419fa6bc36883d",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "UV Intensity",
+        "group": "4c0dae9a2cd86da7",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "696de90e3f4df436",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "group": "4c0dae9a2cd86da7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 500,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "be1d88a54079f559",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 940,
+        "wires": [
+            [
+                "aff3462d9231303f",
+                "866726cf10160da8",
+                "35d1502c601fe8be",
+                "5a365871cd4171e0"
+            ]
+        ]
+    },
+    {
+        "id": "514ca58e1a0b9998",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 940,
+        "wires": [
+            [
+                "0e5467e442361569"
+            ]
+        ]
+    },
+    {
+        "id": "0e5467e442361569",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-03\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 940,
+        "wires": [
+            [
+                "be1d88a54079f559"
+            ]
+        ]
+    },
+    {
+        "id": "aff3462d9231303f",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 860,
+        "wires": [
+            [
+                "9f7c0c947c02e812"
+            ]
+        ]
+    },
+    {
+        "id": "ccc7c69b63ecc3fa",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "2cfaf224e1791a9f",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1020,
+        "wires": [
+            [
+                "0ef0e35ae2df7ddc"
+            ]
+        ]
+    },
+    {
+        "id": "0ef0e35ae2df7ddc",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-03\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1020,
+        "wires": [
+            [
+                "be1d88a54079f559"
+            ]
+        ]
+    },
+    {
+        "id": "866726cf10160da8",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 920,
+        "wires": [
+            [
+                "ead5219c8c2a1df1"
+            ]
+        ]
+    },
+    {
+        "id": "ead5219c8c2a1df1",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Humidity",
+        "group": "2cfaf224e1791a9f",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f7c0c947c02e812",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Temperature",
+        "group": "2cfaf224e1791a9f",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75ef07c4ad71a9e9",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "",
+        "group": "2cfaf224e1791a9f",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 860,
+        "wires": [
+            [
+                "0e5467e442361569"
+            ]
+        ]
+    },
+    {
+        "id": "eb3a677c65e3d43e",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Illuminance",
+        "group": "2cfaf224e1791a9f",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35d1502c601fe8be",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 980,
+        "wires": [
+            [
+                "eb3a677c65e3d43e"
+            ]
+        ]
+    },
+    {
+        "id": "5a365871cd4171e0",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1040,
+        "wires": [
+            [
+                "e28a1b6545d8f88c"
+            ]
+        ]
+    },
+    {
+        "id": "e28a1b6545d8f88c",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "UV Intensity",
+        "group": "2cfaf224e1791a9f",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e40ffae6ceb8e0f",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "group": "2cfaf224e1791a9f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 500,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "a2da559b3aee3cac",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 1300,
+        "wires": [
+            [
+                "843306742c87cca7",
+                "b189cbe958ad48e9",
+                "76e0d6f24975cb7f",
+                "048740a15c8911a7"
+            ]
+        ]
+    },
+    {
+        "id": "9bde71c0c7ae22d8",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 1300,
+        "wires": [
+            [
+                "3a6d8130dd111692"
+            ]
+        ]
+    },
+    {
+        "id": "3a6d8130dd111692",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-04\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1300,
+        "wires": [
+            [
+                "a2da559b3aee3cac"
+            ]
+        ]
+    },
+    {
+        "id": "843306742c87cca7",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Temperature",
+        "func": "var results = msg.payload;\nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1220,
+        "wires": [
+            [
+                "0eb2880ada7beaba"
+            ]
+        ]
+    },
+    {
+        "id": "808d79b4c881e393",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "9bc8f00db1f06ac5",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1380,
+        "wires": [
+            [
+                "095a1ae08ec1140d"
+            ]
+        ]
+    },
+    {
+        "id": "095a1ae08ec1140d",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-04\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1380,
+        "wires": [
+            [
+                "a2da559b3aee3cac"
+            ]
+        ]
+    },
+    {
+        "id": "b189cbe958ad48e9",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1280,
+        "wires": [
+            [
+                "7a59773f3316ea80"
+            ]
+        ]
+    },
+    {
+        "id": "7a59773f3316ea80",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Humidity",
+        "group": "9bc8f00db1f06ac5",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0eb2880ada7beaba",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Temperature",
+        "group": "9bc8f00db1f06ac5",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f337f8a3e76df055",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "",
+        "group": "9bc8f00db1f06ac5",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1220,
+        "wires": [
+            [
+                "3a6d8130dd111692"
+            ]
+        ]
+    },
+    {
+        "id": "9b99fda537e90599",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Illuminance",
+        "group": "9bc8f00db1f06ac5",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76e0d6f24975cb7f",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1340,
+        "wires": [
+            [
+                "9b99fda537e90599"
+            ]
+        ]
+    },
+    {
+        "id": "048740a15c8911a7",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1400,
+        "wires": [
+            [
+                "29055774fb469802"
+            ]
+        ]
+    },
+    {
+        "id": "29055774fb469802",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "UV Intensity",
+        "group": "9bc8f00db1f06ac5",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9219cc7811e28215",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "group": "9bc8f00db1f06ac5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-4",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 500,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "bd372aed04631208",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 1640,
+        "wires": [
+            [
+                "9f428113b4d17208",
+                "c9d79a214925595f",
+                "bfbcaeb6808ae830",
+                "443564a756d194e6"
+            ]
+        ]
+    },
+    {
+        "id": "1448fa4280994e6a",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 1640,
+        "wires": [
+            [
+                "39dc16886c52c3a3"
+            ]
+        ]
+    },
+    {
+        "id": "39dc16886c52c3a3",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-06\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1640,
+        "wires": [
+            [
+                "bd372aed04631208"
+            ]
+        ]
+    },
+    {
+        "id": "9f428113b4d17208",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1560,
+        "wires": [
+            [
+                "c7d3430d192cb84e"
+            ]
+        ]
+    },
+    {
+        "id": "cf11b0139d15f504",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "e94fdd1c5dec442c",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1720,
+        "wires": [
+            [
+                "137b5b4e82797e01"
+            ]
+        ]
+    },
+    {
+        "id": "137b5b4e82797e01",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-06\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1720,
+        "wires": [
+            [
+                "bd372aed04631208"
+            ]
+        ]
+    },
+    {
+        "id": "c9d79a214925595f",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1620,
+        "wires": [
+            [
+                "301139d4436286a3"
+            ]
+        ]
+    },
+    {
+        "id": "301139d4436286a3",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Humidity",
+        "group": "e94fdd1c5dec442c",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7d3430d192cb84e",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Temperature",
+        "group": "e94fdd1c5dec442c",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e44ddd4d97874dec",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "",
+        "group": "e94fdd1c5dec442c",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1560,
+        "wires": [
+            [
+                "39dc16886c52c3a3"
+            ]
+        ]
+    },
+    {
+        "id": "211389631c60578b",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Illuminance",
+        "group": "e94fdd1c5dec442c",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfbcaeb6808ae830",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1680,
+        "wires": [
+            [
+                "211389631c60578b"
+            ]
+        ]
+    },
+    {
+        "id": "443564a756d194e6",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1740,
+        "wires": [
+            [
+                "e899a59139513804"
+            ]
+        ]
+    },
+    {
+        "id": "e899a59139513804",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "name": "UV Intensity",
+        "group": "e94fdd1c5dec442c",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53c03897a3a1f2c4",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "fc506b576d0bcef0",
+        "group": "e94fdd1c5dec442c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-6",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 500,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "5046a6a15ee7d97f",
+        "type": "mongodb4",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 510,
+        "y": 1980,
+        "wires": [
+            [
+                "5350d03e715d0051",
+                "8c9268612330ee5b",
+                "0b9f735f39b341f7",
+                "9d332d132e44a12b"
+            ]
+        ]
+    },
+    {
+        "id": "8c3839aadb02f512",
+        "type": "inject",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 1980,
+        "wires": [
+            [
+                "d9860eca5db39148"
+            ]
+        ]
+    },
+    {
+        "id": "d9860eca5db39148",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-07\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1980,
+        "wires": [
+            [
+                "5046a6a15ee7d97f"
+            ]
+        ]
+    },
+    {
+        "id": "5350d03e715d0051",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Temperature",
+        "func": "var results = msg.payload;\nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1900,
+        "wires": [
+            [
+                "47fa8d2e317be4f5"
+            ]
+        ]
+    },
+    {
+        "id": "a813a186d13bed0a",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "4e8918bf6c385740",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 2060,
+        "wires": [
+            [
+                "c0ba90ae9869a099"
+            ]
+        ]
+    },
+    {
+        "id": "c0ba90ae9869a099",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-07\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 2060,
+        "wires": [
+            [
+                "5046a6a15ee7d97f"
+            ]
+        ]
+    },
+    {
+        "id": "8c9268612330ee5b",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Humidity",
+        "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1960,
+        "wires": [
+            [
+                "9ea9c00b920c1124"
+            ]
+        ]
+    },
+    {
+        "id": "9ea9c00b920c1124",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Humidity",
+        "group": "4e8918bf6c385740",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47fa8d2e317be4f5",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Temperature",
+        "group": "4e8918bf6c385740",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bf11a9034adc962",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "",
+        "group": "4e8918bf6c385740",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1900,
+        "wires": [
+            [
+                "d9860eca5db39148"
+            ]
+        ]
+    },
+    {
+        "id": "4483fc54dbd049b6",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Illuminance",
+        "group": "4e8918bf6c385740",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b9f735f39b341f7",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Illuminance",
+        "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 2020,
+        "wires": [
+            [
+                "4483fc54dbd049b6"
+            ]
+        ]
+    },
+    {
+        "id": "9d332d132e44a12b",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "UV Intensity",
+        "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 2080,
+        "wires": [
+            [
+                "e4af75d969b4995d"
+            ]
+        ]
+    },
+    {
+        "id": "e4af75d969b4995d",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "UV Intensity",
+        "group": "4e8918bf6c385740",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c01c18f5aa2a779e",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "group": "4e8918bf6c385740",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-7",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 500,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "6c246c6eea0c6943",
+        "type": "mongodb4-client",
+        "name": "temp_sensor",
+        "protocol": "mongodb",
+        "hostname": "",
+        "port": "",
+        "dbName": "kommdigital",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "mongodb+srv://spekterbangla:bPbpqQtXGUh8sQc1@cluster0.ujhky.mongodb.net/atlashub-prod-clone?retryWrites=true&w=majority",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-advanced"
+    },
+    {
+        "id": "d6de265f36f661c0",
+        "type": "ui_group",
+        "name": "sensebox1",
+        "tab": "94ac640c96f08ba8",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4c0dae9a2cd86da7",
+        "type": "ui_group",
+        "name": "sensebox2",
+        "tab": "94ac640c96f08ba8",
+        "order": 2,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2cfaf224e1791a9f",
+        "type": "ui_group",
+        "name": "sensebox3",
+        "tab": "94ac640c96f08ba8",
+        "order": 3,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9bc8f00db1f06ac5",
+        "type": "ui_group",
+        "name": "sensebox4",
+        "tab": "94ac640c96f08ba8",
+        "order": 4,
+        "disp": true,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e94fdd1c5dec442c",
+        "type": "ui_group",
+        "name": "sensebox6",
+        "tab": "94ac640c96f08ba8",
+        "order": 5,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e8918bf6c385740",
+        "type": "ui_group",
+        "name": "sensebox7",
+        "tab": "94ac640c96f08ba8",
+        "order": 6,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "94ac640c96f08ba8",
+        "type": "ui_tab",
+        "name": "Temperature Sensor Dashboard",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    }
+]

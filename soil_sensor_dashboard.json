@@ -1,0 +1,2558 @@
+[
+    {
+        "id": "1c38872debedfd03",
+        "type": "tab",
+        "label": "Soil Sensor Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "13194d74ba141af5",
+        "type": "group",
+        "z": "1c38872debedfd03",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e00f0f19ae85430c",
+            "dbedad5f2aa1c47f",
+            "18b7c18450f89d38",
+            "e96480476f6148e8",
+            "c2fb4250887a3bcf",
+            "f186890926bb32cf",
+            "8ab508fd187a76a7",
+            "da735ea34c15aae7",
+            "9364fc7a7b95f8fa",
+            "1fff0d4839d3733f",
+            "9b79e33ddd96600c",
+            "ea75f5e8a67fd999",
+            "616cdaebb11b70c2",
+            "0b79eb54d4357784",
+            "a0c409a0e98d077d"
+        ],
+        "x": 94,
+        "y": 59,
+        "w": 972,
+        "h": 322
+    },
+    {
+        "id": "220f83ebf102e7bf",
+        "type": "group",
+        "z": "1c38872debedfd03",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f32fdd924cba25ea",
+            "ef5cc9004f0d11c0",
+            "4d958da5dde3b87f",
+            "c5603f384540afdf",
+            "fe1357f062f19c0b",
+            "4ebf79e0bb35e80c",
+            "0afbf0b606022e64",
+            "181351b71577372b",
+            "9aeb3026fd8cb2c8",
+            "7068949c7b8f75cf",
+            "a782c5d65e93a488",
+            "8d49cae4cd85336f",
+            "40e17e7b437448d5",
+            "9296969863a71256",
+            "f575953f1065b21d"
+        ],
+        "x": 94,
+        "y": 419,
+        "w": 972,
+        "h": 322
+    },
+    {
+        "id": "899d9b9e2b22d539",
+        "type": "group",
+        "z": "1c38872debedfd03",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0835a79f9f026a5c",
+            "0a33242b81c3aaab",
+            "6138042e238c887a",
+            "823baa25b683013b",
+            "f54a20d23c9b844b",
+            "2986385bc9c2db71",
+            "3fb0a6501f8b0d8d",
+            "8c61d14d7363bd9b",
+            "97d4b26bd53d79ff",
+            "a889d076333d1739",
+            "e3e2e3c5b7fd7eca",
+            "2d98ee66a4f0edf0",
+            "908960c771344a49",
+            "480f22d087345714",
+            "d65df08e9bb56e6f"
+        ],
+        "x": 94,
+        "y": 779,
+        "w": 972,
+        "h": 322
+    },
+    {
+        "id": "2162d783c16cd16b",
+        "type": "group",
+        "z": "1c38872debedfd03",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "37cbbd7344bd9c13",
+            "3be916bbf9ed6c64",
+            "4bebbe95db146bd0",
+            "1c17e83ab9d0ce91",
+            "63cafb1db38492c6",
+            "390be2e866892975",
+            "1a114dc9544c98de",
+            "9eed662a5c8f61b6",
+            "920756b72688880c",
+            "97c0df4690822f27",
+            "c8b26d17098f772f",
+            "5785e9b0d1305e49",
+            "1aa148a2f7bebf9a",
+            "31714ee08fa90aa4",
+            "ed82df83cea119a5"
+        ],
+        "x": 94,
+        "y": 1159,
+        "w": 972,
+        "h": 322
+    },
+    {
+        "id": "ef945f45d99b1f23",
+        "type": "group",
+        "z": "1c38872debedfd03",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a2576b5b5a7818c9",
+            "cedc44a87f2a7ea0",
+            "652ad9493fbda555",
+            "12935e482d2dcd27",
+            "72e785f783461f6b",
+            "e08d9d3911020d7e",
+            "3b39a85a4401bf3f",
+            "09367483814a4375",
+            "50052891df74f02b",
+            "1708858422042adc",
+            "8c52e8f5a76a03db",
+            "62b661bb42354d96",
+            "b7906842e32ca339",
+            "683652e61fb6c32a",
+            "1befddb440ebe0e1"
+        ],
+        "x": 94,
+        "y": 1539,
+        "w": 972,
+        "h": 322
+    },
+    {
+        "id": "e00f0f19ae85430c",
+        "type": "mongodb4",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "soil_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "e96480476f6148e8",
+                "8ab508fd187a76a7",
+                "9364fc7a7b95f8fa",
+                "1fff0d4839d3733f"
+            ]
+        ]
+    },
+    {
+        "id": "dbedad5f2aa1c47f",
+        "type": "inject",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "18b7c18450f89d38"
+            ]
+        ]
+    },
+    {
+        "id": "18b7c18450f89d38",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840412881881c6a\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "e00f0f19ae85430c"
+            ]
+        ]
+    },
+    {
+        "id": "e96480476f6148e8",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temp_soil).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature of Soil\"],\n    \"data\": [\n        temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 160,
+        "wires": [
+            [
+                "9b79e33ddd96600c"
+            ]
+        ]
+    },
+    {
+        "id": "c2fb4250887a3bcf",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "b0ba5a219f0523bb",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "f186890926bb32cf"
+            ]
+        ]
+    },
+    {
+        "id": "f186890926bb32cf",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840412881881c6a\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 320,
+        "wires": [
+            [
+                "e00f0f19ae85430c"
+            ]
+        ]
+    },
+    {
+        "id": "8ab508fd187a76a7",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Water",
+        "func": "var results = msg.payload;\nvar water_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.water_soil).toFixed(2);\n\n    water_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        water_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 220,
+        "wires": [
+            [
+                "ea75f5e8a67fd999"
+            ]
+        ]
+    },
+    {
+        "id": "da735ea34c15aae7",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "",
+        "group": "b0ba5a219f0523bb",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "18b7c18450f89d38"
+            ]
+        ]
+    },
+    {
+        "id": "9364fc7a7b95f8fa",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Conductivity",
+        "func": "var results = msg.payload;\nvar conduct_soil = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.conduct_soil).toFixed(2);\n\n    conduct_soil.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        conduct_soil\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 280,
+        "wires": [
+            [
+                "616cdaebb11b70c2"
+            ]
+        ]
+    },
+    {
+        "id": "1fff0d4839d3733f",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Battery Voltage",
+        "func": "var results = msg.payload;\nvar battery_voltage = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.battery_voltage).toFixed(2);\n\n    battery_voltage.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        battery_voltage\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "0b79eb54d4357784"
+            ]
+        ]
+    },
+    {
+        "id": "9b79e33ddd96600c",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Temperature of Soil",
+        "group": "b0ba5a219f0523bb",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea75f5e8a67fd999",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Water in Soil",
+        "group": "b0ba5a219f0523bb",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "616cdaebb11b70c2",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Conductivity of Soil",
+        "group": "b0ba5a219f0523bb",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b79eb54d4357784",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Battery Voltage",
+        "group": "b0ba5a219f0523bb",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0c409a0e98d077d",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "group": "b0ba5a219f0523bb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 540,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f32fdd924cba25ea",
+        "type": "mongodb4",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "soil_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 530,
+        "y": 600,
+        "wires": [
+            [
+                "c5603f384540afdf",
+                "0afbf0b606022e64",
+                "9aeb3026fd8cb2c8",
+                "7068949c7b8f75cf"
+            ]
+        ]
+    },
+    {
+        "id": "ef5cc9004f0d11c0",
+        "type": "inject",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 600,
+        "wires": [
+            [
+                "4d958da5dde3b87f"
+            ]
+        ]
+    },
+    {
+        "id": "4d958da5dde3b87f",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a8404111d1881c80\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 600,
+        "wires": [
+            [
+                "f32fdd924cba25ea"
+            ]
+        ]
+    },
+    {
+        "id": "c5603f384540afdf",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temp_soil).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature of Soil\"],\n    \"data\": [\n        temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 520,
+        "wires": [
+            [
+                "a782c5d65e93a488"
+            ]
+        ]
+    },
+    {
+        "id": "fe1357f062f19c0b",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "ab874b0e93334cc4",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "4ebf79e0bb35e80c"
+            ]
+        ]
+    },
+    {
+        "id": "4ebf79e0bb35e80c",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a8404111d1881c80\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 680,
+        "wires": [
+            [
+                "f32fdd924cba25ea"
+            ]
+        ]
+    },
+    {
+        "id": "0afbf0b606022e64",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Water",
+        "func": "var results = msg.payload;\nvar water_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.water_soil).toFixed(2);\n\n    water_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        water_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 580,
+        "wires": [
+            [
+                "8d49cae4cd85336f"
+            ]
+        ]
+    },
+    {
+        "id": "181351b71577372b",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "",
+        "group": "ab874b0e93334cc4",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 520,
+        "wires": [
+            [
+                "4d958da5dde3b87f"
+            ]
+        ]
+    },
+    {
+        "id": "9aeb3026fd8cb2c8",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Conductivity",
+        "func": "var results = msg.payload;\nvar conduct_soil = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.conduct_soil).toFixed(2);\n\n    conduct_soil.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        conduct_soil\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 640,
+        "wires": [
+            [
+                "40e17e7b437448d5"
+            ]
+        ]
+    },
+    {
+        "id": "7068949c7b8f75cf",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Battery Voltage",
+        "func": "var results = msg.payload;\nvar battery_voltage = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.battery_voltage).toFixed(2);\n\n    battery_voltage.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        battery_voltage\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 700,
+        "wires": [
+            [
+                "9296969863a71256"
+            ]
+        ]
+    },
+    {
+        "id": "a782c5d65e93a488",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Temperature of Soil",
+        "group": "ab874b0e93334cc4",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d49cae4cd85336f",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Water in Soil",
+        "group": "ab874b0e93334cc4",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40e17e7b437448d5",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Conductivity of Soil",
+        "group": "ab874b0e93334cc4",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9296969863a71256",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Battery Voltage",
+        "group": "ab874b0e93334cc4",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f575953f1065b21d",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "group": "ab874b0e93334cc4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 540,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0835a79f9f026a5c",
+        "type": "mongodb4",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "soil_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 530,
+        "y": 960,
+        "wires": [
+            [
+                "823baa25b683013b",
+                "3fb0a6501f8b0d8d",
+                "97d4b26bd53d79ff",
+                "a889d076333d1739"
+            ]
+        ]
+    },
+    {
+        "id": "0a33242b81c3aaab",
+        "type": "inject",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "6138042e238c887a"
+            ]
+        ]
+    },
+    {
+        "id": "6138042e238c887a",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041e0c1881c65\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "0835a79f9f026a5c"
+            ]
+        ]
+    },
+    {
+        "id": "823baa25b683013b",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temp_soil).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature of Soil\"],\n    \"data\": [\n        temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 880,
+        "wires": [
+            [
+                "e3e2e3c5b7fd7eca"
+            ]
+        ]
+    },
+    {
+        "id": "f54a20d23c9b844b",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "a60134d115fb105c",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1040,
+        "wires": [
+            [
+                "2986385bc9c2db71"
+            ]
+        ]
+    },
+    {
+        "id": "2986385bc9c2db71",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041e0c1881c65\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1040,
+        "wires": [
+            [
+                "0835a79f9f026a5c"
+            ]
+        ]
+    },
+    {
+        "id": "3fb0a6501f8b0d8d",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Water",
+        "func": "var results = msg.payload;\nvar water_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.water_soil).toFixed(2);\n\n    water_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        water_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 940,
+        "wires": [
+            [
+                "2d98ee66a4f0edf0"
+            ]
+        ]
+    },
+    {
+        "id": "8c61d14d7363bd9b",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "",
+        "group": "a60134d115fb105c",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 880,
+        "wires": [
+            [
+                "6138042e238c887a"
+            ]
+        ]
+    },
+    {
+        "id": "97d4b26bd53d79ff",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Conductivity",
+        "func": "var results = msg.payload;\nvar conduct_soil = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.conduct_soil).toFixed(2);\n\n    conduct_soil.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        conduct_soil\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1000,
+        "wires": [
+            [
+                "908960c771344a49"
+            ]
+        ]
+    },
+    {
+        "id": "a889d076333d1739",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Battery Voltage",
+        "func": "var results = msg.payload;\nvar battery_voltage = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.battery_voltage).toFixed(2);\n\n    battery_voltage.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        battery_voltage\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1060,
+        "wires": [
+            [
+                "480f22d087345714"
+            ]
+        ]
+    },
+    {
+        "id": "e3e2e3c5b7fd7eca",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Temperature of Soil",
+        "group": "a60134d115fb105c",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d98ee66a4f0edf0",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Water in Soil",
+        "group": "a60134d115fb105c",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "908960c771344a49",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Conductivity of Soil",
+        "group": "a60134d115fb105c",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "480f22d087345714",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Battery Voltage",
+        "group": "a60134d115fb105c",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d65df08e9bb56e6f",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "group": "a60134d115fb105c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 540,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "37cbbd7344bd9c13",
+        "type": "mongodb4",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "soil_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 530,
+        "y": 1340,
+        "wires": [
+            [
+                "1c17e83ab9d0ce91",
+                "1a114dc9544c98de",
+                "920756b72688880c",
+                "97c0df4690822f27"
+            ]
+        ]
+    },
+    {
+        "id": "3be916bbf9ed6c64",
+        "type": "inject",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 1340,
+        "wires": [
+            [
+                "4bebbe95db146bd0"
+            ]
+        ]
+    },
+    {
+        "id": "4bebbe95db146bd0",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041ffb1881c77\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1340,
+        "wires": [
+            [
+                "37cbbd7344bd9c13"
+            ]
+        ]
+    },
+    {
+        "id": "1c17e83ab9d0ce91",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temp_soil).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature of Soil\"],\n    \"data\": [\n        temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1260,
+        "wires": [
+            [
+                "c8b26d17098f772f"
+            ]
+        ]
+    },
+    {
+        "id": "63cafb1db38492c6",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "f5ba2cb56977521d",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1420,
+        "wires": [
+            [
+                "390be2e866892975"
+            ]
+        ]
+    },
+    {
+        "id": "390be2e866892975",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041ffb1881c77\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1420,
+        "wires": [
+            [
+                "37cbbd7344bd9c13"
+            ]
+        ]
+    },
+    {
+        "id": "1a114dc9544c98de",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Water",
+        "func": "var results = msg.payload;\nvar water_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.water_soil).toFixed(2);\n\n    water_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        water_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1320,
+        "wires": [
+            [
+                "5785e9b0d1305e49"
+            ]
+        ]
+    },
+    {
+        "id": "9eed662a5c8f61b6",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "",
+        "group": "f5ba2cb56977521d",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1260,
+        "wires": [
+            [
+                "4bebbe95db146bd0"
+            ]
+        ]
+    },
+    {
+        "id": "920756b72688880c",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Conductivity",
+        "func": "var results = msg.payload;\nvar conduct_soil = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.conduct_soil).toFixed(2);\n\n    conduct_soil.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        conduct_soil\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1380,
+        "wires": [
+            [
+                "1aa148a2f7bebf9a"
+            ]
+        ]
+    },
+    {
+        "id": "97c0df4690822f27",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Battery Voltage",
+        "func": "var results = msg.payload;\nvar battery_voltage = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.battery_voltage).toFixed(2);\n\n    battery_voltage.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        battery_voltage\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1440,
+        "wires": [
+            [
+                "31714ee08fa90aa4"
+            ]
+        ]
+    },
+    {
+        "id": "c8b26d17098f772f",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Temperature of Soil",
+        "group": "f5ba2cb56977521d",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5785e9b0d1305e49",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Water in Soil",
+        "group": "f5ba2cb56977521d",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1aa148a2f7bebf9a",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Conductivity of Soil",
+        "group": "f5ba2cb56977521d",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31714ee08fa90aa4",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Battery Voltage",
+        "group": "f5ba2cb56977521d",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed82df83cea119a5",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "group": "f5ba2cb56977521d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 4",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 540,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a2576b5b5a7818c9",
+        "type": "mongodb4",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "soil_sensor",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 530,
+        "y": 1720,
+        "wires": [
+            [
+                "12935e482d2dcd27",
+                "3b39a85a4401bf3f",
+                "50052891df74f02b",
+                "1708858422042adc"
+            ]
+        ]
+    },
+    {
+        "id": "cedc44a87f2a7ea0",
+        "type": "inject",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 1720,
+        "wires": [
+            [
+                "652ad9493fbda555"
+            ]
+        ]
+    },
+    {
+        "id": "652ad9493fbda555",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "1 Day Data",
+        "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840416c21881c78\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1720,
+        "wires": [
+            [
+                "a2576b5b5a7818c9"
+            ]
+        ]
+    },
+    {
+        "id": "12935e482d2dcd27",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Temperature",
+        "func": "var results = msg.payload; \nvar temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temp_soil).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature of Soil\"],\n    \"data\": [\n        temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1640,
+        "wires": [
+            [
+                "8c52e8f5a76a03db"
+            ]
+        ]
+    },
+    {
+        "id": "72e785f783461f6b",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "7e566a81e6655eca",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1800,
+        "wires": [
+            [
+                "e08d9d3911020d7e"
+            ]
+        ]
+    },
+    {
+        "id": "e08d9d3911020d7e",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "User Request",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840416c21881c78\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1800,
+        "wires": [
+            [
+                "a2576b5b5a7818c9"
+            ]
+        ]
+    },
+    {
+        "id": "3b39a85a4401bf3f",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Water",
+        "func": "var results = msg.payload;\nvar water_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.water_soil).toFixed(2);\n\n    water_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        water_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1700,
+        "wires": [
+            [
+                "62b661bb42354d96"
+            ]
+        ]
+    },
+    {
+        "id": "09367483814a4375",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "",
+        "group": "7e566a81e6655eca",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1640,
+        "wires": [
+            [
+                "652ad9493fbda555"
+            ]
+        ]
+    },
+    {
+        "id": "50052891df74f02b",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Conductivity",
+        "func": "var results = msg.payload;\nvar conduct_soil = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.conduct_soil).toFixed(2);\n\n    conduct_soil.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        conduct_soil\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1760,
+        "wires": [
+            [
+                "b7906842e32ca339"
+            ]
+        ]
+    },
+    {
+        "id": "1708858422042adc",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Battery Voltage",
+        "func": "var results = msg.payload;\nvar battery_voltage = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.battery_voltage).toFixed(2);\n\n    battery_voltage.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Water in Soil\"],\n    \"data\": [\n        battery_voltage\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1820,
+        "wires": [
+            [
+                "683652e61fb6c32a"
+            ]
+        ]
+    },
+    {
+        "id": "8c52e8f5a76a03db",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Temperature of Soil",
+        "group": "7e566a81e6655eca",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62b661bb42354d96",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Water in Soil",
+        "group": "7e566a81e6655eca",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7906842e32ca339",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Conductivity of Soil",
+        "group": "7e566a81e6655eca",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "683652e61fb6c32a",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Battery Voltage",
+        "group": "7e566a81e6655eca",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1befddb440ebe0e1",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "group": "7e566a81e6655eca",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 5",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 540,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "6c246c6eea0c6943",
+        "type": "mongodb4-client",
+        "name": "temp_sensor",
+        "protocol": "mongodb",
+        "hostname": "",
+        "port": "",
+        "dbName": "kommdigital",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "mongodb+srv://spekterbangla:bPbpqQtXGUh8sQc1@cluster0.ujhky.mongodb.net/atlashub-prod-clone?retryWrites=true&w=majority",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-advanced"
+    },
+    {
+        "id": "b0ba5a219f0523bb",
+        "type": "ui_group",
+        "name": "device1",
+        "tab": "f806ccbe1d3a8e71",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab874b0e93334cc4",
+        "type": "ui_group",
+        "name": "device2",
+        "tab": "f806ccbe1d3a8e71",
+        "order": 2,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a60134d115fb105c",
+        "type": "ui_group",
+        "name": "device3",
+        "tab": "f806ccbe1d3a8e71",
+        "order": 3,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5ba2cb56977521d",
+        "type": "ui_group",
+        "name": "device4",
+        "tab": "f806ccbe1d3a8e71",
+        "order": 4,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7e566a81e6655eca",
+        "type": "ui_group",
+        "name": "device5",
+        "tab": "f806ccbe1d3a8e71",
+        "order": 5,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f806ccbe1d3a8e71",
+        "type": "ui_tab",
+        "name": "Soil Sensor Dashboard",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    }
+]

@@ -1,0 +1,2486 @@
+[
+    {
+        "id": "38b54e049c9b78a2",
+        "type": "tab",
+        "label": "Temp Sensor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b579cf62cb73e1e1",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "23dd42192bdf3cf4",
+            "8d7a1961e832891c",
+            "799bcc55e75820dc",
+            "76ebbd54e2baf821",
+            "bbae8aa638ab6d0b",
+            "9ff38aedb3461248",
+            "1df72ec8bbe13c74",
+            "ef49b06b9ba1298e",
+            "9a4a4781b7edf8f1",
+            "18e4b7323abfdf08",
+            "ca404cad8bf90237",
+            "9149f65032c6221d",
+            "51e7019d0714e1f0"
+        ],
+        "x": 1154,
+        "y": 379,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "a1a35ba9bcbdc331",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "e4b5701c2af25847",
+            "d2ea8d7d09775caf",
+            "1ee5ef1877f7a6cd",
+            "01f748f2247f3fbd",
+            "f83e5a17e7b96060",
+            "cd5582fe9aaa9c58",
+            "5bc45162be3fbdfe",
+            "5c8c21abeab89706",
+            "ede1a343e8c12cb5",
+            "d4bba6abb7c27db9",
+            "3f95966b286876c7",
+            "89595967d3511b93",
+            "15146a27e6c92f35"
+        ],
+        "x": 1154,
+        "y": 59,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "f174edef7e963973",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "ad5d2e99db98a319",
+            "f9859fcd0162da68",
+            "e6d1614092aeee47",
+            "1d795f7f17004b3f",
+            "9e00dcd57b8dc3df",
+            "e86acecaedbe6f26",
+            "72c7de4bc8c0125b",
+            "645c15023fe95923",
+            "64f78280055f842f",
+            "939bff43d93b75a3",
+            "d5883ff21740d3b0",
+            "8e01da3a1c3b2bd8",
+            "ea864569f7d43714"
+        ],
+        "x": 1154,
+        "y": 699,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "12e64bef091f31a6",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "09e3d8fe6c820bfe",
+            "23461503ee4730b8",
+            "b286a66e1d9fa3d1",
+            "e10d35d4855771a0",
+            "1127302d79646348",
+            "f2dcc0d9114b4049",
+            "3201a185c0e8d6ba",
+            "de39a0e80e3378a0",
+            "306f9e72d0d7c840",
+            "1bac8573e9ff5f8b",
+            "c812b645056f71e2",
+            "d2d230cc2d2e4744",
+            "d12cc7df152d7800"
+        ],
+        "x": 2054,
+        "y": 59,
+        "w": 852,
+        "h": 282
+    },
+    {
+        "id": "f990b6905dd85c4c",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "9fcf62de1eba7bfc",
+            "441c56c9f57e7c36",
+            "cf7cc869e4d9663c",
+            "ca3a885323f3881d",
+            "4cbbb10b5bef62a6",
+            "796c868acd497c17",
+            "0eb24d51f30bfafd",
+            "b6eb9600104634f6",
+            "29f173870be67ad1",
+            "abf8f289599ffdfd",
+            "b99209d777bc5577",
+            "87707e20c0c3035b",
+            "0b66c7d7883240f8"
+        ],
+        "x": 2054,
+        "y": 359,
+        "w": 852,
+        "h": 282
+    },
+    {
+        "id": "5c256e156f8f7362",
+        "type": "group",
+        "z": "38b54e049c9b78a2",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "bec2ad6efeddf6e3",
+            "5b6fa4bc1f13c595",
+            "0a144ae50fb8d1f2",
+            "4bf49a859678b174",
+            "fcba1e6a9ccddb66",
+            "2181e868a5d2732e",
+            "f46caf3d6c12b818",
+            "eb98eb6c3b2fc4f2",
+            "e2f0dd099997f631",
+            "288d8650647e8af6",
+            "0c83c20e142a0b8a",
+            "bce8ebc03dec8282",
+            "b267bf0b99ce7948"
+        ],
+        "x": 2054,
+        "y": 679,
+        "w": 852,
+        "h": 282
+    },
+    {
+        "id": "c24087526c9d0ddd",
+        "type": "mqtt in",
+        "z": "38b54e049c9b78a2",
+        "name": "Temp Sensor",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e6db278fd742bc22",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 220,
+        "wires": [
+            [
+                "0c3336e4362fb984",
+                "4a8e24ebc3fc752e",
+                "68488a7a2a05dd68"
+            ]
+        ]
+    },
+    {
+        "id": "0c3336e4362fb984",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "name": "Extracting Temp Sensor Data",
+        "func": "var att = msg.payload.uplink_message.decoded_payload;\n\nvar data = {};\n\nif (att.fan_active) {\n    data.fan_active = att.fan_active.value;\n}\n\nif (att.humidity) {\n    data.humidity = att.humidity.value\n}\n\nif (att.lux) {\n    data.lux = att.lux.value;\n}\n\nif (att.lux_max) {\n    data.lux_max = att.lux_max.value;\n}\n\nif (att.lux_min) {\n    data.lux_min = att.lux_min.value;\n}\n\nif (att.pm_10) {\n    data.pm_10 = att.pm_10.value;\n}\n\nif (att.pm_10_max) {\n    data.pm_10_max = att.pm_10_max.value;\n}\n\nif (att.pm_10_min) {\n    data.pm_10_min = att.pm_10_min.value;\n}\n\nif (att.pm_2_5) {\n    data.pm_2_5 = att.pm_2_5.value;\n}\n\nif (att.pm_2_5_max) {\n    data.pm_2_5_max = att.pm_2_5_max.value;\n}\n\nif (att.pm_2_5_min) {\n    data.pm_2_5_min = att.pm_2_5_min.value;\n}\n\nif (att.pressure) {\n    data.pressure = att.pressure.value;\n}\n\nif (att.temperature) {\n    data.temperature = att.temperature.value;\n}\n\nif (att.temperature_box) {\n    data.temperature_box = att.temperature_box.value;\n}\n\nif (att.temperature_max) {\n    data.temperature_max = att.temperature_max.value;\n}\n\nif (att.temperature_min) {\n    data.temperature_min = att.temperature_min.value;\n}\n\nif (att.uv) {\n    data.uv = att.uv.value;\n}\n\nif (att.uv_max) {\n    data.uv_max = att.uv_max.value;\n}\n\nif (att.uv_min) {\n    data.uv_min = att.uv_min.value;\n}\n\nvar body = {\n    timestamp: new Date(msg.payload.received_at),\n    metadata: msg._msgid,\n    type: \"temp_sensor\",\n    device_id: msg.payload.end_device_ids.device_id,\n    data: data\n};\n\nmsg.payload = body;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "5699f89dd4e10fd0",
+                "e4b5701c2af25847",
+                "51e7019d0714e1f0",
+                "ea864569f7d43714",
+                "09e3d8fe6c820bfe",
+                "9fcf62de1eba7bfc",
+                "bec2ad6efeddf6e3",
+                "fe0eff922d361c08"
+            ]
+        ]
+    },
+    {
+        "id": "5699f89dd4e10fd0",
+        "type": "debug",
+        "z": "38b54e049c9b78a2",
+        "name": "Temp Sensor Formatted Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4a8e24ebc3fc752e",
+        "type": "debug",
+        "z": "38b54e049c9b78a2",
+        "name": "Temp Sensor Output",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "68488a7a2a05dd68",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "name": "Checking Missing Data",
+        "func": "var att = msg.payload.uplink_message.decoded_payload;\n\nvar error_messages = [];\n\nif (!att.fan_active) {\n    error_messages.push(\"Fan active status is missing\");\n}\n\nif (!att.humidity) {\n    error_messages.push(\"Humidity value is missing\");\n}\n\nif (!att.lux) {\n    error_messages.push(\"Illuminance value is missing\");\n}\n\nif (!att.lux_max) {\n    error_messages.push(\"Illuminance Max value is missing\");\n}\n\nif (!att.lux_min) {\n    error_messages.push(\"Illuminance Min value is missing\");\n}\n\nif (!att.pm_10) {\n    error_messages.push(\"Particulate Matter 10 value is missing\");\n}\n\nif (!att.pm_10_max) {\n    error_messages.push(\"Max Particulate Matter 10 value is missing\");\n}\n\nif (!att.pm_10_min) {\n    error_messages.push(\"Min Particulate Matter 10 is missing\");\n}\n\nif (!att.pm_2_5) {\n    error_messages.push(\"Particulate Metter 2.5 is missing\");\n}\n\nif (!att.pm_2_5_max) {\n    error_messages.push(\"Max Particulate Metter 2.5 is missing\");\n}\n\nif (!att.pm_2_5_min) {\n    error_messages.push(\"Min Particulate Metter 2.5 is missing\");\n}\n\nif (!att.pressure) {\n    error_messages.push(\"Atmospheric Pressure is missing\");\n}\n\nif (!att.temperature) {\n    error_messages.push(\"Air Temperature is missing\");\n}\n\nif (!att.temperature_box) {\n    error_messages.push(\"Temperature inside box is missing\");\n}\n\nif (!att.temperature_max) {\n    error_messages.push(\"Air temperature max is missing\");\n}\n\nif (!att.temperature_min) {\n    error_messages.push(\"Air temperature min is missing\");\n}\n\nif (!att.uv) {\n    error_messages.push(\"UV intensity is missing\");\n}\n\nif (!att.uv_max) {\n    error_messages.push(\"UV intensity max is missing\");\n}\n\nif (!att.uv_min) {\n    error_messages.push(\"UV intensity min is missing\");\n}\n\nvar error_count = error_messages.length;\n\nmsg.error_count = error_count;\nmsg.error_messages = error_messages;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 460,
+        "wires": [
+            [
+                "7613bb46f1b3bd11"
+            ]
+        ]
+    },
+    {
+        "id": "7613bb46f1b3bd11",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "name": "",
+        "property": "error_count",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 460,
+        "wires": [
+            [
+                "7116b0d3cd47ff0d"
+            ]
+        ]
+    },
+    {
+        "id": "7116b0d3cd47ff0d",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "name": "Formatting Error Message",
+        "func": "\nvar body = {\n    time: new Date(),\n    sensorId: msg.payload.end_device_ids.device_id,\n    sensorType: \"temp_sensor\",\n    metadata: {\n        logtype: \"error\",\n        logmsg: msg.error_messages\n    }\n};\n\nmsg.payload = body;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "26112982506828d0",
+                "fcea6e6fc3c6891d"
+            ]
+        ]
+    },
+    {
+        "id": "fcea6e6fc3c6891d",
+        "type": "debug",
+        "z": "38b54e049c9b78a2",
+        "name": "Error Message",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "e4b5701c2af25847",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-01",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1250,
+        "y": 200,
+        "wires": [
+            [
+                "d2ea8d7d09775caf",
+                "1ee5ef1877f7a6cd",
+                "01f748f2247f3fbd",
+                "f83e5a17e7b96060",
+                "cd5582fe9aaa9c58",
+                "89595967d3511b93"
+            ]
+        ]
+    },
+    {
+        "id": "d2ea8d7d09775caf",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 100,
+        "wires": [
+            [
+                "5bc45162be3fbdfe"
+            ]
+        ]
+    },
+    {
+        "id": "1ee5ef1877f7a6cd",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 140,
+        "wires": [
+            [
+                "5c8c21abeab89706"
+            ]
+        ]
+    },
+    {
+        "id": "01f748f2247f3fbd",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 180,
+        "wires": [
+            [
+                "ede1a343e8c12cb5"
+            ]
+        ]
+    },
+    {
+        "id": "fe0eff922d361c08",
+        "type": "mongodb4",
+        "z": "38b54e049c9b78a2",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "temp_sensor",
+        "operation": "insertOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "Storing Temp Data",
+        "x": 650,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26112982506828d0",
+        "type": "mongodb4",
+        "z": "38b54e049c9b78a2",
+        "clientNode": "6c246c6eea0c6943",
+        "mode": "collection",
+        "collection": "log",
+        "operation": "insertOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "Storing Error Log",
+        "x": 830,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f83e5a17e7b96060",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 220,
+        "wires": [
+            [
+                "d4bba6abb7c27db9"
+            ]
+        ]
+    },
+    {
+        "id": "cd5582fe9aaa9c58",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 260,
+        "wires": [
+            [
+                "3f95966b286876c7"
+            ]
+        ]
+    },
+    {
+        "id": "5bc45162be3fbdfe",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Temperature Gauge",
+        "group": "d6de265f36f661c0",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1820,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5c8c21abeab89706",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Box Temperature Gauge",
+        "group": "d6de265f36f661c0",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1830,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ede1a343e8c12cb5",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Humidity Gauge",
+        "group": "d6de265f36f661c0",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1800,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d4bba6abb7c27db9",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "illuminance gauge",
+        "group": "d6de265f36f661c0",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3f95966b286876c7",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "UV Intensity Gauge",
+        "group": "d6de265f36f661c0",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "89595967d3511b93",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 300,
+        "wires": [
+            [
+                "15146a27e6c92f35"
+            ]
+        ]
+    },
+    {
+        "id": "15146a27e6c92f35",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "a1a35ba9bcbdc331",
+        "group": "d6de265f36f661c0",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1790,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "23dd42192bdf3cf4",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 420,
+        "wires": [
+            [
+                "9ff38aedb3461248"
+            ]
+        ]
+    },
+    {
+        "id": "8d7a1961e832891c",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 460,
+        "wires": [
+            [
+                "1df72ec8bbe13c74"
+            ]
+        ]
+    },
+    {
+        "id": "799bcc55e75820dc",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 500,
+        "wires": [
+            [
+                "ef49b06b9ba1298e"
+            ]
+        ]
+    },
+    {
+        "id": "76ebbd54e2baf821",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 540,
+        "wires": [
+            [
+                "9a4a4781b7edf8f1"
+            ]
+        ]
+    },
+    {
+        "id": "bbae8aa638ab6d0b",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 580,
+        "wires": [
+            [
+                "18e4b7323abfdf08"
+            ]
+        ]
+    },
+    {
+        "id": "9ff38aedb3461248",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Temperature Gauge",
+        "group": "4c0dae9a2cd86da7",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1820,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "1df72ec8bbe13c74",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Box Temperature Gauge",
+        "group": "4c0dae9a2cd86da7",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1830,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "ef49b06b9ba1298e",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Humidity Gauge",
+        "group": "4c0dae9a2cd86da7",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1800,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9a4a4781b7edf8f1",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "illuminance gauge",
+        "group": "4c0dae9a2cd86da7",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "18e4b7323abfdf08",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "UV Intensity Gauge",
+        "group": "4c0dae9a2cd86da7",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ca404cad8bf90237",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 620,
+        "wires": [
+            [
+                "9149f65032c6221d"
+            ]
+        ]
+    },
+    {
+        "id": "9149f65032c6221d",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "group": "4c0dae9a2cd86da7",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1790,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "51e7019d0714e1f0",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "b579cf62cb73e1e1",
+        "name": "Sensebox2",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-02",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1250,
+        "y": 520,
+        "wires": [
+            [
+                "23dd42192bdf3cf4",
+                "8d7a1961e832891c",
+                "799bcc55e75820dc",
+                "76ebbd54e2baf821",
+                "bbae8aa638ab6d0b",
+                "ca404cad8bf90237"
+            ]
+        ]
+    },
+    {
+        "id": "ad5d2e99db98a319",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1550,
+        "y": 740,
+        "wires": [
+            [
+                "e86acecaedbe6f26"
+            ]
+        ]
+    },
+    {
+        "id": "f9859fcd0162da68",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 780,
+        "wires": [
+            [
+                "72c7de4bc8c0125b"
+            ]
+        ]
+    },
+    {
+        "id": "e6d1614092aeee47",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 820,
+        "wires": [
+            [
+                "645c15023fe95923"
+            ]
+        ]
+    },
+    {
+        "id": "1d795f7f17004b3f",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 860,
+        "wires": [
+            [
+                "64f78280055f842f"
+            ]
+        ]
+    },
+    {
+        "id": "9e00dcd57b8dc3df",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 900,
+        "wires": [
+            [
+                "939bff43d93b75a3"
+            ]
+        ]
+    },
+    {
+        "id": "e86acecaedbe6f26",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Temperature Gauge",
+        "group": "2cfaf224e1791a9f",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1820,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "72c7de4bc8c0125b",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Box Temperature Gauge",
+        "group": "2cfaf224e1791a9f",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1830,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "645c15023fe95923",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Humidity Gauge",
+        "group": "2cfaf224e1791a9f",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1800,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "64f78280055f842f",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "illuminance gauge",
+        "group": "2cfaf224e1791a9f",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "939bff43d93b75a3",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "UV Intensity Gauge",
+        "group": "2cfaf224e1791a9f",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 1810,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "d5883ff21740d3b0",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 940,
+        "wires": [
+            [
+                "8e01da3a1c3b2bd8"
+            ]
+        ]
+    },
+    {
+        "id": "8e01da3a1c3b2bd8",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "group": "2cfaf224e1791a9f",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1790,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "ea864569f7d43714",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "f174edef7e963973",
+        "name": "Sensebox3",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-03",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1250,
+        "y": 840,
+        "wires": [
+            [
+                "ad5d2e99db98a319",
+                "f9859fcd0162da68",
+                "e6d1614092aeee47",
+                "1d795f7f17004b3f",
+                "9e00dcd57b8dc3df",
+                "d5883ff21740d3b0"
+            ]
+        ]
+    },
+    {
+        "id": "09e3d8fe6c820bfe",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox4",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-04",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2150,
+        "y": 200,
+        "wires": [
+            [
+                "23461503ee4730b8",
+                "b286a66e1d9fa3d1",
+                "e10d35d4855771a0",
+                "1127302d79646348",
+                "f2dcc0d9114b4049",
+                "d2d230cc2d2e4744"
+            ]
+        ]
+    },
+    {
+        "id": "23461503ee4730b8",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2470,
+        "y": 100,
+        "wires": [
+            [
+                "3201a185c0e8d6ba"
+            ]
+        ]
+    },
+    {
+        "id": "b286a66e1d9fa3d1",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2480,
+        "y": 140,
+        "wires": [
+            [
+                "de39a0e80e3378a0"
+            ]
+        ]
+    },
+    {
+        "id": "e10d35d4855771a0",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 180,
+        "wires": [
+            [
+                "306f9e72d0d7c840"
+            ]
+        ]
+    },
+    {
+        "id": "1127302d79646348",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 220,
+        "wires": [
+            [
+                "1bac8573e9ff5f8b"
+            ]
+        ]
+    },
+    {
+        "id": "f2dcc0d9114b4049",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 260,
+        "wires": [
+            [
+                "c812b645056f71e2"
+            ]
+        ]
+    },
+    {
+        "id": "3201a185c0e8d6ba",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Temperature Gauge",
+        "group": "9bc8f00db1f06ac5",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2760,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "de39a0e80e3378a0",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Box Temperature Gauge",
+        "group": "9bc8f00db1f06ac5",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "306f9e72d0d7c840",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Humidity Gauge",
+        "group": "9bc8f00db1f06ac5",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2740,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "1bac8573e9ff5f8b",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "illuminance gauge",
+        "group": "9bc8f00db1f06ac5",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c812b645056f71e2",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "UV Intensity Gauge",
+        "group": "9bc8f00db1f06ac5",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d2d230cc2d2e4744",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 300,
+        "wires": [
+            [
+                "d12cc7df152d7800"
+            ]
+        ]
+    },
+    {
+        "id": "d12cc7df152d7800",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "12e64bef091f31a6",
+        "group": "9bc8f00db1f06ac5",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9fcf62de1eba7bfc",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox6",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-06",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2150,
+        "y": 480,
+        "wires": [
+            [
+                "441c56c9f57e7c36",
+                "cf7cc869e4d9663c",
+                "ca3a885323f3881d",
+                "4cbbb10b5bef62a6",
+                "796c868acd497c17",
+                "87707e20c0c3035b"
+            ]
+        ]
+    },
+    {
+        "id": "441c56c9f57e7c36",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2470,
+        "y": 400,
+        "wires": [
+            [
+                "0eb24d51f30bfafd"
+            ]
+        ]
+    },
+    {
+        "id": "cf7cc869e4d9663c",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2480,
+        "y": 440,
+        "wires": [
+            [
+                "b6eb9600104634f6"
+            ]
+        ]
+    },
+    {
+        "id": "ca3a885323f3881d",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 480,
+        "wires": [
+            [
+                "29f173870be67ad1"
+            ]
+        ]
+    },
+    {
+        "id": "4cbbb10b5bef62a6",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 520,
+        "wires": [
+            [
+                "abf8f289599ffdfd"
+            ]
+        ]
+    },
+    {
+        "id": "796c868acd497c17",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 560,
+        "wires": [
+            [
+                "b99209d777bc5577"
+            ]
+        ]
+    },
+    {
+        "id": "0eb24d51f30bfafd",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Temperature Gauge",
+        "group": "e94fdd1c5dec442c",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2760,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b6eb9600104634f6",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Box Temperature Gauge",
+        "group": "e94fdd1c5dec442c",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "29f173870be67ad1",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Humidity Gauge",
+        "group": "e94fdd1c5dec442c",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2740,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "abf8f289599ffdfd",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "illuminance gauge",
+        "group": "e94fdd1c5dec442c",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b99209d777bc5577",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "UV Intensity Gauge",
+        "group": "e94fdd1c5dec442c",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "87707e20c0c3035b",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 600,
+        "wires": [
+            [
+                "0b66c7d7883240f8"
+            ]
+        ]
+    },
+    {
+        "id": "0b66c7d7883240f8",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "f990b6905dd85c4c",
+        "group": "e94fdd1c5dec442c",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2730,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "bec2ad6efeddf6e3",
+        "type": "switch",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox7",
+        "property": "payload.device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-07",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2150,
+        "y": 820,
+        "wires": [
+            [
+                "5b6fa4bc1f13c595",
+                "0a144ae50fb8d1f2",
+                "4bf49a859678b174",
+                "fcba1e6a9ccddb66",
+                "2181e868a5d2732e",
+                "bce8ebc03dec8282"
+            ]
+        ]
+    },
+    {
+        "id": "5b6fa4bc1f13c595",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 Temperature",
+        "func": "var temperature = msg.payload.data.temperature.toFixed(2);\nmsg.payload = temperature;\nmsg.topic = 'Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2470,
+        "y": 720,
+        "wires": [
+            [
+                "f46caf3d6c12b818"
+            ]
+        ]
+    },
+    {
+        "id": "0a144ae50fb8d1f2",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 Temperature Box",
+        "func": "var temperature_min = msg.payload.data.temperature_min.toFixed(2);\nmsg.payload = temperature_min;\nmsg.topic = 'Minimum Temperature';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2480,
+        "y": 760,
+        "wires": [
+            [
+                "eb98eb6c3b2fc4f2"
+            ]
+        ]
+    },
+    {
+        "id": "4bf49a859678b174",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 Humidity",
+        "func": "var humidity = msg.payload.data.humidity.toFixed(2);\nmsg.payload = humidity+'%';\nmsg.topic = \"Relative Humidity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 800,
+        "wires": [
+            [
+                "e2f0dd099997f631"
+            ]
+        ]
+    },
+    {
+        "id": "fcba1e6a9ccddb66",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 Lux",
+        "func": "var lux = msg.payload.data.lux.toFixed(2);\nmsg.payload = lux;\nmsg.topic = \"Illuminance\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 840,
+        "wires": [
+            [
+                "288d8650647e8af6"
+            ]
+        ]
+    },
+    {
+        "id": "2181e868a5d2732e",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 UV",
+        "func": "var uv = msg.payload.data.uv.toFixed(2);\nmsg.payload = uv;\nmsg.topic = \"UV Intensity\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 880,
+        "wires": [
+            [
+                "0c83c20e142a0b8a"
+            ]
+        ]
+    },
+    {
+        "id": "f46caf3d6c12b818",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Temperature Gauge",
+        "group": "4e8918bf6c385740",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2760,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "eb98eb6c3b2fc4f2",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Box Temperature Gauge",
+        "group": "4e8918bf6c385740",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Box Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2770,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e2f0dd099997f631",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Humidity Gauge",
+        "group": "4e8918bf6c385740",
+        "order": 4,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2740,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "288d8650647e8af6",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "illuminance gauge",
+        "group": "4e8918bf6c385740",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Illuminance",
+        "label": "lx",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "170000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50000",
+        "seg2": "120000",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "0c83c20e142a0b8a",
+        "type": "ui_gauge",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "UV Intensity Gauge",
+        "group": "4e8918bf6c385740",
+        "order": 6,
+        "width": 4,
+        "height": 3,
+        "gtype": "donut",
+        "title": "UV Intensity",
+        "label": "µW⋅cm⁻²",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "400",
+        "diff": false,
+        "className": "",
+        "x": 2750,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "bce8ebc03dec8282",
+        "type": "function",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "name": "Sensebox1 Fan Active",
+        "func": "var fan_active = msg.payload.data.fan_active;\nif (fan_active == 0) {\n    msg.payload = 'Inactive';\n} else {\n    msg.payload = 'Active';\n}\n\nmsg.topic = \"Fan Status\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 920,
+        "wires": [
+            [
+                "b267bf0b99ce7948"
+            ]
+        ]
+    },
+    {
+        "id": "b267bf0b99ce7948",
+        "type": "ui_text",
+        "z": "38b54e049c9b78a2",
+        "g": "5c256e156f8f7362",
+        "group": "4e8918bf6c385740",
+        "order": 7,
+        "width": 4,
+        "height": 3,
+        "name": "Fan Status",
+        "label": "Fan Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2730,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "e6db278fd742bc22",
+        "type": "mqtt-broker",
+        "name": "Temp Sensor",
+        "broker": "eu1.cloud.thethings.industries",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6c246c6eea0c6943",
+        "type": "mongodb4-client",
+        "name": "temp_sensor",
+        "protocol": "mongodb",
+        "hostname": "",
+        "port": "",
+        "dbName": "kommdigital",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "mongodb+srv://spekterbangla:bPbpqQtXGUh8sQc1@cluster0.ujhky.mongodb.net/atlashub-prod-clone?retryWrites=true&w=majority",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-advanced"
+    },
+    {
+        "id": "d6de265f36f661c0",
+        "type": "ui_group",
+        "name": "sensebox1",
+        "tab": "94ac640c96f08ba8",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4c0dae9a2cd86da7",
+        "type": "ui_group",
+        "name": "sensebox2",
+        "tab": "94ac640c96f08ba8",
+        "order": 2,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2cfaf224e1791a9f",
+        "type": "ui_group",
+        "name": "sensebox3",
+        "tab": "94ac640c96f08ba8",
+        "order": 3,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9bc8f00db1f06ac5",
+        "type": "ui_group",
+        "name": "sensebox4",
+        "tab": "94ac640c96f08ba8",
+        "order": 4,
+        "disp": true,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e94fdd1c5dec442c",
+        "type": "ui_group",
+        "name": "sensebox6",
+        "tab": "94ac640c96f08ba8",
+        "order": 5,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e8918bf6c385740",
+        "type": "ui_group",
+        "name": "sensebox7",
+        "tab": "94ac640c96f08ba8",
+        "order": 6,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "94ac640c96f08ba8",
+        "type": "ui_tab",
+        "name": "Temperature Sensor Dashboard",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    }
+]
