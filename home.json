@@ -1,0 +1,764 @@
+[
+    {
+        "id": "3408b34b286dc17b",
+        "type": "tab",
+        "label": "Home",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8585e7d2f0c26715",
+        "type": "group",
+        "z": "3408b34b286dc17b",
+        "style": {
+            "stroke": "#b2b3bd",
+            "stroke-opacity": "1",
+            "fill": "#f2f3fb",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#32333b"
+        },
+        "nodes": [
+            "303bf9f9ce3ae11f",
+            "bab20d9a406ccee4",
+            "11ebed61c92a7369",
+            "f6d261fb78bfe5dc",
+            "9de5b63a873d3f8c"
+        ],
+        "x": 2214,
+        "y": 179,
+        "w": 532,
+        "h": 202
+    },
+    {
+        "id": "6f13ecf5a60dd89f",
+        "type": "inject",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 680,
+        "y": 580,
+        "wires": [
+            [
+                "80453639cd683d88",
+                "2b59b873a65d882d",
+                "6eec574c622e891e"
+            ]
+        ]
+    },
+    {
+        "id": "80453639cd683d88",
+        "type": "http request",
+        "z": "3408b34b286dc17b",
+        "name": "hdc",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://137.184.228.7:5007/hdc?ags=09274127&page=1&limit=10000&withData=true&timeFrame=1440",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 910,
+        "y": 600,
+        "wires": [
+            [
+                "e485c9673579ae6a"
+            ]
+        ]
+    },
+    {
+        "id": "e485c9673579ae6a",
+        "type": "json",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1050,
+        "y": 620,
+        "wires": [
+            [
+                "92b461f3600619ca"
+            ]
+        ]
+    },
+    {
+        "id": "92b461f3600619ca",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "name": "extract",
+        "func": "// Extract the result object from the incoming message payload\nmsg.payload = msg.payload.data.result;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 620,
+        "wires": [
+            [
+                "a0db091cad756707"
+            ]
+        ]
+    },
+    {
+        "id": "0211f0a47c0e1f6c",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "name": "sensor_location_sr",
+        "func": "var sensors = msg.payload;\nvar output = [];\n\nsensors.forEach(sensor => {\n    var name = sensor.name;\n    var lat = sensor.location.lat;\n    var lng = sensor.location.lng;\n    var solecorrectionvalue = sensor.soleCorrectionValue;\n\n    // Initialize variables\n    var lastValue = 0; // Default to 0 if no valid value is found\n    var water_level = 0; // Default to 0 if no valid value is found\n\n    // Check if the data array is not empty and contains valid data\n    if (sensor.data && sensor.data.length > 0) {\n        var lastDataEntry = sensor.data[sensor.data.length - 1];\n        if (lastDataEntry && lastDataEntry._value !== undefined && lastDataEntry._value !== null) {\n            lastValue = lastDataEntry._value;\n            // Calculate water_level\n            water_level = solecorrectionvalue - lastValue;\n\n            // Ensure water_level is not negative\n            if (water_level < 0) {\n                water_level = 0;\n            }\n        }\n    }\n\n    // Creating the tooltip string\n    var tooltip = \"Sensor Name: \" + name + \"<br>Latitude: \" + lat + \"<br>Longitude: \" + lng + \"<br>Sole Correction Value: \" + solecorrectionvalue +\n                  \"<br>Water Level: \" + water_level;\n\n    // Creating the popup with the provided URL\n    var popup = '<a href=\"http://78.46.151.191:1880/ui/#!/1?socketid=XO3Rr-BMPpSUzMmWAAdB\" target=\"_blank\">See Details in New Tab</a>';\n    \n    // Including the _id in the payload for later use\n    var payload = {\n        \"name\": name,\n        \"lat\": lat,\n        \"lon\": lng,\n        \"layer\": \"Smart-River\",\n        \"solecorrectionvalue\": solecorrectionvalue,\n        \"water_level\": water_level,\n        \"tooltip\": tooltip,\n        \"popup\": popup,\n        \"icon\": \"https://github.com/shamim237/assesment-spekter/raw/main/d8779b0c-b166-49ed-8780-1b095cdf76a4.png\",\n        \"_id\": sensor._id // Including the _id for click handling\n    };\n\n    // Pushing the payload to the output array\n    output.push(payload);\n});\n\nmsg.payload = output;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 660,
+        "wires": [
+            [
+                "64c3f961a7eae8fc"
+            ]
+        ]
+    },
+    {
+        "id": "2b59b873a65d882d",
+        "type": "http request",
+        "z": "3408b34b286dc17b",
+        "name": "smart-river",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://137.184.228.7:5007/smartriver?ags=09274127&page=1&limit=10000&withData=true&timeFrame=120",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 890,
+        "y": 640,
+        "wires": [
+            [
+                "3edba8c197a192d8"
+            ]
+        ]
+    },
+    {
+        "id": "3edba8c197a192d8",
+        "type": "json",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1050,
+        "y": 660,
+        "wires": [
+            [
+                "f6813f065491d9f9"
+            ]
+        ]
+    },
+    {
+        "id": "f6813f065491d9f9",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "name": "extract",
+        "func": "// Extract the result object from the incoming message payload\nmsg.payload = msg.payload.data.result;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 660,
+        "wires": [
+            [
+                "0211f0a47c0e1f6c"
+            ]
+        ]
+    },
+    {
+        "id": "64c3f961a7eae8fc",
+        "type": "split",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1650,
+        "y": 660,
+        "wires": [
+            [
+                "6eec574c622e891e"
+            ]
+        ]
+    },
+    {
+        "id": "a0db091cad756707",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "name": "hdc_location",
+        "func": "var sensors = msg.payload;\nvar output = [];\n\nsensors.forEach(sensor => {\n    var name = sensor.name;\n    var lat = sensor.location.lat;\n    var lon = sensor.location.lng;\n    var catchment = sensor.catchment;\n\n    // Extracting the last value from the data array\n    var lastValue = 0; // Default to 0 if no valid value is found\n    if (sensor.data && sensor.data.length > 0) {\n        var lastDataEntry = sensor.data[sensor.data.length - 1];\n        if (lastDataEntry && lastDataEntry._value !== undefined && lastDataEntry._value !== null) {\n            lastValue = lastDataEntry._value;\n        }\n    }\n\n    // Creating the tooltip string\n    var tooltip = \"Sensor Name: \" + name + \"<br>Latitude: \" + lat + \"<br>Longitude: \" + lon + \"<br>Catchment: \" + catchment +\n                  \"<br>Last Value: \" + lastValue;\n\n    // Creating the popup with the provided URL\n    var popup = '<a href=\"http://78.46.151.191:1880/ui/#!/2?socketid=XO3Rr-BMPpSUzMmWAAdB\" target=\"_blank\">See Details in New Tab</a>';\n    \n    // Including the _id in the payload for later use\n    var payload = {\n        \"name\": name,\n        \"lat\": lat,\n        \"lon\": lon,\n        \"layer\": \"HDC\",\n        \"catchment\": catchment,\n        \"lastValue\": lastValue,\n        \"tooltip\": tooltip,\n        \"popup\": popup,\n        \"icon\": \"https://raw.githubusercontent.com/shamim237/assesment-spekter/main/34b31a68-eb2b-4347-8f56-839e6d69e1a4.png\",\n        \"_id\": sensor._id // Including the _id for click handling\n    };\n\n    // Pushing the payload to the output array\n    output.push(payload);\n});\n\nmsg.payload = output;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 620,
+        "wires": [
+            [
+                "ba407611b62a99d7"
+            ]
+        ]
+    },
+    {
+        "id": "ba407611b62a99d7",
+        "type": "split",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1650,
+        "y": 620,
+        "wires": [
+            [
+                "6eec574c622e891e"
+            ]
+        ]
+    },
+    {
+        "id": "bab20d9a406ccee4",
+        "type": "mqtt in",
+        "z": "3408b34b286dc17b",
+        "g": "8585e7d2f0c26715",
+        "name": "Temp Sensor",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e6db278fd742bc22",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 2310,
+        "y": 280,
+        "wires": [
+            [
+                "11ebed61c92a7369"
+            ]
+        ]
+    },
+    {
+        "id": "11ebed61c92a7369",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "g": "8585e7d2f0c26715",
+        "name": "Process Temp Sensor Data",
+        "func": "var att = msg.payload.uplink_message.decoded_payload;\nvar device_id = msg.payload.end_device_ids.device_id;\nvar latitude = att.latitude.value;\nvar longitude = att.longitude.value;\nvar temperature = parseFloat(att.temperature.value).toFixed(2);\nvar humidity = att.humidity.value;\nvar illuminance = att.lux.value;\nvar pressure = parseFloat(att.pressure.value).toFixed(2);\nvar uv_intensity = att.uv.value;\n\nvar url;\nvar payload;\n\nvar icon = \"https://raw.githubusercontent.com/touhidurrahman/spekter_node_red/main/Pictures/temp_sensor.png\";\n\nif (device_id == 'sensebox-01') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/5?socketid=1sl4YbucrOoM13bMAAZ9\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-1\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'sensebox-02') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/6?socketid=P6thRpRp8T7Or8VCAAaF\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-2\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'sensebox-03') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/7?socketid=P6thRpRp8T7Or8VCAAaF\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-3\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'sensebox-04') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/8?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-4\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'sensebox-06') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/9?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-6\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'sensebox-07') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/10?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Sensebox-7\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Temperature Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Temperature: \" + temperature + \" °C\" + \"<br>Humidity: \" +humidity + \"%\"+\n        \"<br>Illuminance: \"+illuminance+\" lux<br>Pressure: \"+pressure+\" hPa<br>UV Intensity: \"+uv_intensity+\" µW⋅cm⁻²\",\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nmsg.payload = payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 280,
+        "wires": [
+            [
+                "6eec574c622e891e"
+            ]
+        ]
+    },
+    {
+        "id": "f6d261fb78bfe5dc",
+        "type": "mqtt in",
+        "z": "3408b34b286dc17b",
+        "g": "8585e7d2f0c26715",
+        "name": "Soil Sensor",
+        "topic": "#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3b9fb07e0e6380c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 2310,
+        "y": 340,
+        "wires": [
+            [
+                "9de5b63a873d3f8c"
+            ]
+        ]
+    },
+    {
+        "id": "9de5b63a873d3f8c",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "g": "8585e7d2f0c26715",
+        "name": "Process Soil Sensor Data",
+        "func": "var att = msg.payload.uplink_message.decoded_payload;\nvar device_id = msg.payload.end_device_ids.device_id;\n\nvar latitude = msg.payload.uplink_message.locations.user.latitude;\nvar longitude = msg.payload.uplink_message.locations.user.longitude;\n\nvar temp_soil = att.temp_SOIL;\nvar water_soil = att.water_SOIL;\nvar battery_voltage = att.BatV;\nvar soil_conductivity = att.conduct_SOIL;\n\nvar url;\nvar payload;\n\nvar icon = \"https://raw.githubusercontent.com/touhidurrahman/spekter_node_red/main/Pictures/soil_sensor.png\";\n\nif (device_id == 'eui-a840412881881c6a') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/11?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Device-1\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Soil Sensor\",\n        \"tooltip\": \"Sensor ID: \"+device_id + \"<br>Soil Temperature: \"+temp_soil+ \" °C<br>Soil Water: \"+water_soil+\n        \"<br>Battery Voltage: \"+battery_voltage+\"<br>Soil Conductivity: \"+soil_conductivity,\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'eui-a8404111d1881c80') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/12?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Device-2\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Soil Sensor\",\n        \"tooltip\": \"Sensor ID: \" + device_id + \"<br>Soil Temperature: \" + temp_soil + \" °C<br>Soil Water: \" + water_soil +\n            \"<br>Battery Voltage: \" + battery_voltage + \"<br>Soil Conductivity: \" + soil_conductivity,\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'eui-a84041e0c1881c65') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/13?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Device-3\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Soil Sensor\",\n        \"tooltip\": \"Sensor ID: \" + device_id + \"<br>Soil Temperature: \" + temp_soil + \" °C<br>Soil Water: \" + water_soil +\n            \"<br>Battery Voltage: \" + battery_voltage + \"<br>Soil Conductivity: \" + soil_conductivity,\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'eui-a84041ffb1881c77') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/14?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Device-4\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Soil Sensor\",\n        \"tooltip\": \"Sensor ID: \" + device_id + \"<br>Soil Temperature: \" + temp_soil + \" °C<br>Soil Water: \" + water_soil +\n            \"<br>Battery Voltage: \" + battery_voltage + \"<br>Soil Conductivity: \" + soil_conductivity,\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\nif (device_id == 'eui-a840416c21881c78') {\n    url = '<a href=\"http://78.46.151.191:1880/ui/#!/15?socketid=rPhLCHLGC2EpLY5gAAaQ\" target=\"_blank\">See Details in New Tab</a>';\n    payload = {\n        \"name\": \"Device-5\",\n        \"lat\": latitude,\n        \"lon\": longitude,\n        \"layer\": \"Soil Sensor\",\n        \"tooltip\": \"Sensor ID: \" + device_id + \"<br>Soil Temperature: \" + temp_soil + \" °C<br>Soil Water: \" + water_soil +\n            \"<br>Battery Voltage: \" + battery_voltage + \"<br>Soil Conductivity: \" + soil_conductivity,\n        \"popup\": url,\n        \"icon\": icon\n    }\n}\n\n\nmsg.payload = payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2570,
+        "y": 340,
+        "wires": [
+            [
+                "6eec574c622e891e"
+            ]
+        ]
+    },
+    {
+        "id": "916ebbc77dc65d51",
+        "type": "ui_text",
+        "z": "3408b34b286dc17b",
+        "group": "cb49bbcb751fd7de",
+        "order": 1,
+        "width": 28,
+        "height": 1,
+        "name": "",
+        "label": "Location of Sensors",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#0527b3",
+        "x": 2120,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "303bf9f9ce3ae11f",
+        "type": "comment",
+        "z": "3408b34b286dc17b",
+        "g": "8585e7d2f0c26715",
+        "name": "Temp Sensor and Soil Sensor Map",
+        "info": "",
+        "x": 2480,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6eec574c622e891e",
+        "type": "ui_worldmap",
+        "z": "3408b34b286dc17b",
+        "group": "cb49bbcb751fd7de",
+        "order": 2,
+        "width": 28,
+        "height": 14,
+        "name": "",
+        "lat": "48.69516",
+        "lon": "12.21433",
+        "zoom": "13",
+        "layer": "EsriT",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "",
+        "maplist": "EsriC,EsriS,EsriT",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 2120,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4f3fbbb9ea28705f",
+        "type": "worldmap in",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "path": "/worldmap",
+        "events": "connect,disconnect,point,layer,bounds,files,draw,other",
+        "x": 700,
+        "y": 840,
+        "wires": [
+            [
+                "9436efc112619656",
+                "3b28f517dbfe564e"
+            ]
+        ]
+    },
+    {
+        "id": "9436efc112619656",
+        "type": "function",
+        "z": "3408b34b286dc17b",
+        "name": "function 630",
+        "func": "// Check if the action in msg.payload is 'connected'\nif (msg.payload.action === 'connected') {\n    msg.payload = Math.floor(Date.now() / 1000);\n    return msg;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 920,
+        "wires": [
+            [
+                "96f6ab8d42ec45bd"
+            ]
+        ]
+    },
+    {
+        "id": "96f6ab8d42ec45bd",
+        "type": "switch",
+        "z": "3408b34b286dc17b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1050,
+        "y": 920,
+        "wires": [
+            [
+                "2b59b873a65d882d",
+                "80453639cd683d88"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3b28f517dbfe564e",
+        "type": "debug",
+        "z": "3408b34b286dc17b",
+        "name": "debug 58",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "cfccbb32126b13e3",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62f4f86bf22ea8a9",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7ec452f1fbe309a7",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0de0d1d864546a8",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb61485204bd2867",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ed494590e048fad7",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "54e69c1fa3d8bae5",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bedf014b255370b7",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "34290e2d69e18151",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bd4ebe213bee5f70",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb4d7818b2c3cf1a",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "df6620f3490217b1",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "53c8975070994810",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5ca0a0b5adbad841",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 15,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "3722e10843175592",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 17,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "ab99718827299d91",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a5b7e05544310606",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 20,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "b9b0e8bc687e9b9a",
+        "type": "ui_spacer",
+        "z": "3408b34b286dc17b",
+        "name": "spacer",
+        "group": "",
+        "order": 22,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "e6db278fd742bc22",
+        "type": "mqtt-broker",
+        "name": "Temp Sensor",
+        "broker": "eu1.cloud.thethings.industries",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3b9fb07e0e6380c8",
+        "type": "mqtt-broker",
+        "name": "Soil Sensor",
+        "broker": "eu1.cloud.thethings.industries",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cb49bbcb751fd7de",
+        "type": "ui_group",
+        "name": "map",
+        "tab": "625d8c7324cc3ebd",
+        "order": 1,
+        "disp": false,
+        "width": "28",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "625d8c7324cc3ebd",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "mi-home",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

@@ -35,12 +35,19 @@
             "4a81730fede584ba",
             "ea871f71a3d935d8",
             "45fdb4ed620d56fd",
-            "158d25ae0e8a9820"
+            "158d25ae0e8a9820",
+            "eb2de4b416b6c175",
+            "075370ce2d65b7ec",
+            "9a23299a2b64b216",
+            "68d822b4122c24bb",
+            "d3b3aefe8cca83fd",
+            "47364060440be65d",
+            "cb0c185b3383d45e"
         ],
         "x": 74,
         "y": 39,
-        "w": 932,
-        "h": 322
+        "w": 1152,
+        "h": 362
     },
     {
         "id": "9d38849303bb0904",
@@ -70,12 +77,19 @@
             "9cd7d11e0fce3d9e",
             "646e0f3f20368094",
             "ac419fa6bc36883d",
-            "696de90e3f4df436"
+            "696de90e3f4df436",
+            "1921553e58ddab82",
+            "7c8bac1f47172ffc",
+            "5442f02ddce54e30",
+            "c6bab75f2731b4ed",
+            "bdf2762e47c695e7",
+            "e9098045e3568254",
+            "91d695cf4709930b"
         ],
         "x": 74,
-        "y": 419,
-        "w": 932,
-        "h": 302
+        "y": 439,
+        "w": 1152,
+        "h": 342
     },
     {
         "id": "c79106f3978724b1",
@@ -105,12 +119,19 @@
             "35d1502c601fe8be",
             "5a365871cd4171e0",
             "e28a1b6545d8f88c",
-            "8e40ffae6ceb8e0f"
+            "8e40ffae6ceb8e0f",
+            "30884a0e0ebc3033",
+            "8b16c61e4b195406",
+            "b3854f5585baa59f",
+            "37b1a9417dfa9cd6",
+            "a4d6887f660bba58",
+            "218e18966a8f365b",
+            "5fafe5d75a23c903"
         ],
         "x": 74,
-        "y": 779,
-        "w": 932,
-        "h": 302
+        "y": 819,
+        "w": 1152,
+        "h": 322
     },
     {
         "id": "c95b710f0ef9ba35",
@@ -140,47 +161,19 @@
             "76e0d6f24975cb7f",
             "048740a15c8911a7",
             "29055774fb469802",
-            "9219cc7811e28215"
+            "9219cc7811e28215",
+            "7ab06038ed0756e5",
+            "e9284fca82e50250",
+            "74b19042c3d582f7",
+            "279573798d1f7768",
+            "0a95d8c7778bc1ad",
+            "9c6dc8f57a553455",
+            "2cd35d7dd0fab841"
         ],
         "x": 74,
-        "y": 1139,
-        "w": 932,
-        "h": 302
-    },
-    {
-        "id": "fc506b576d0bcef0",
-        "type": "group",
-        "z": "bc70283693a5505d",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "bd372aed04631208",
-            "1448fa4280994e6a",
-            "39dc16886c52c3a3",
-            "9f428113b4d17208",
-            "cf11b0139d15f504",
-            "137b5b4e82797e01",
-            "c9d79a214925595f",
-            "301139d4436286a3",
-            "c7d3430d192cb84e",
-            "e44ddd4d97874dec",
-            "211389631c60578b",
-            "bfbcaeb6808ae830",
-            "443564a756d194e6",
-            "e899a59139513804",
-            "53c03897a3a1f2c4"
-        ],
-        "x": 74,
-        "y": 1479,
-        "w": 932,
-        "h": 302
+        "y": 1179,
+        "w": 1132,
+        "h": 342
     },
     {
         "id": "3a9c1833b4c05e0a",
@@ -210,12 +203,61 @@
             "0b9f735f39b341f7",
             "9d332d132e44a12b",
             "e4af75d969b4995d",
-            "c01c18f5aa2a779e"
+            "c01c18f5aa2a779e",
+            "719a09cd5e971b30",
+            "2e7cf8e7d19c94a6",
+            "6b5f692ee5606eec",
+            "8d88ac2e170a2a75",
+            "9d1f13ee2846f197",
+            "7ec0090c6fabb488",
+            "9c0d310434edc650"
         ],
         "x": 74,
-        "y": 1819,
-        "w": 932,
-        "h": 302
+        "y": 1979,
+        "w": 1152,
+        "h": 342
+    },
+    {
+        "id": "af1ea1044f640237",
+        "type": "group",
+        "z": "bc70283693a5505d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bd372aed04631208",
+            "1448fa4280994e6a",
+            "39dc16886c52c3a3",
+            "9f428113b4d17208",
+            "cf11b0139d15f504",
+            "137b5b4e82797e01",
+            "c9d79a214925595f",
+            "301139d4436286a3",
+            "c7d3430d192cb84e",
+            "e44ddd4d97874dec",
+            "211389631c60578b",
+            "bfbcaeb6808ae830",
+            "443564a756d194e6",
+            "e899a59139513804",
+            "53c03897a3a1f2c4",
+            "5d60d239aa85acc2",
+            "b0e544a311df3473",
+            "f65db1feef73dd2e",
+            "f05f78990a018a2c",
+            "ae4a84b5e1ae9dfa",
+            "e919eb6c062e18d6",
+            "2f286f0d2a063e1c"
+        ],
+        "x": 74,
+        "y": 1579,
+        "w": 1152,
+        "h": 342
     },
     {
         "id": "c73832561b1e097b",
@@ -237,7 +279,8 @@
                 "615974c7a01d8948",
                 "cf93dd3c8d08bd3a",
                 "4a81730fede584ba",
-                "ea871f71a3d935d8"
+                "ea871f71a3d935d8",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -309,7 +352,8 @@
         "y": 140,
         "wires": [
             [
-                "b0c5a11c65a04ec2"
+                "b0c5a11c65a04ec2",
+                "eb2de4b416b6c175"
             ]
         ]
     },
@@ -338,11 +382,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -365,14 +417,14 @@
         "z": "bc70283693a5505d",
         "g": "f769dfedbb3f9361",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-01\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-01\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-01\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 360,
         "y": 300,
         "wires": [
             [
@@ -397,7 +449,8 @@
         "y": 200,
         "wires": [
             [
-                "64900bd708ae264e"
+                "64900bd708ae264e",
+                "075370ce2d65b7ec"
             ]
         ]
     },
@@ -582,7 +635,8 @@
         "y": 260,
         "wires": [
             [
-                "488968eed61e42e8"
+                "488968eed61e42e8",
+                "9a23299a2b64b216"
             ]
         ]
     },
@@ -603,7 +657,8 @@
         "y": 320,
         "wires": [
             [
-                "45fdb4ed620d56fd"
+                "45fdb4ed620d56fd",
+                "68d822b4122c24bb"
             ]
         ]
     },
@@ -688,13 +743,14 @@
         "handleDocId": false,
         "name": "",
         "x": 510,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "2bcb830197212210",
                 "5cfdae0cc77b851d",
                 "9cd7d11e0fce3d9e",
-                "646e0f3f20368094"
+                "646e0f3f20368094",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -721,7 +777,7 @@
         "payload": "{}",
         "payloadType": "json",
         "x": 170,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "2e5027e76ceb2584"
@@ -742,7 +798,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 580,
+        "y": 620,
         "wires": [
             [
                 "37746e402dc0d5a7"
@@ -763,10 +819,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
-                "b118f0e7d18962f5"
+                "b118f0e7d18962f5",
+                "1921553e58ddab82"
             ]
         ]
     },
@@ -795,11 +852,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -809,7 +874,7 @@
         "splitLayout": false,
         "className": "",
         "x": 170,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "c122a3610a1271e5"
@@ -822,7 +887,7 @@
         "z": "bc70283693a5505d",
         "g": "9d38849303bb0904",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-02\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-02\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-02\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -830,7 +895,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "37746e402dc0d5a7"
@@ -851,10 +916,11 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 560,
+        "y": 600,
         "wires": [
             [
-                "3089793277f46e05"
+                "3089793277f46e05",
+                "7c8bac1f47172ffc"
             ]
         ]
     },
@@ -898,7 +964,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 900,
-        "y": 560,
+        "y": 600,
         "wires": [
             []
         ]
@@ -943,7 +1009,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 500,
+        "y": 540,
         "wires": [
             []
         ]
@@ -970,7 +1036,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 170,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
                 "2e5027e76ceb2584"
@@ -1017,7 +1083,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 620,
+        "y": 660,
         "wires": [
             []
         ]
@@ -1036,10 +1102,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 620,
+        "y": 660,
         "wires": [
             [
-                "3582f6808561444a"
+                "3582f6808561444a",
+                "5442f02ddce54e30"
             ]
         ]
     },
@@ -1057,10 +1124,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
-                "ac419fa6bc36883d"
+                "ac419fa6bc36883d",
+                "c6bab75f2731b4ed"
             ]
         ]
     },
@@ -1104,7 +1172,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 680,
+        "y": 720,
         "wires": [
             []
         ]
@@ -1128,7 +1196,7 @@
         "fontSize": "20",
         "color": "#0f22ae",
         "x": 500,
-        "y": 460,
+        "y": 500,
         "wires": []
     },
     {
@@ -1145,13 +1213,14 @@
         "handleDocId": false,
         "name": "",
         "x": 510,
-        "y": 940,
+        "y": 980,
         "wires": [
             [
                 "aff3462d9231303f",
                 "866726cf10160da8",
                 "35d1502c601fe8be",
-                "5a365871cd4171e0"
+                "5a365871cd4171e0",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -1178,7 +1247,7 @@
         "payload": "{}",
         "payloadType": "json",
         "x": 170,
-        "y": 940,
+        "y": 980,
         "wires": [
             [
                 "0e5467e442361569"
@@ -1199,7 +1268,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 940,
+        "y": 980,
         "wires": [
             [
                 "be1d88a54079f559"
@@ -1220,10 +1289,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
-                "9f7c0c947c02e812"
+                "9f7c0c947c02e812",
+                "b3854f5585baa59f"
             ]
         ]
     },
@@ -1252,11 +1322,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -1266,7 +1344,7 @@
         "splitLayout": false,
         "className": "",
         "x": 170,
-        "y": 1020,
+        "y": 1060,
         "wires": [
             [
                 "0ef0e35ae2df7ddc"
@@ -1279,7 +1357,7 @@
         "z": "bc70283693a5505d",
         "g": "c79106f3978724b1",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-03\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-03\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-03\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1287,7 +1365,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1020,
+        "y": 1060,
         "wires": [
             [
                 "be1d88a54079f559"
@@ -1308,10 +1386,11 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 920,
+        "y": 960,
         "wires": [
             [
-                "ead5219c8c2a1df1"
+                "ead5219c8c2a1df1",
+                "37b1a9417dfa9cd6"
             ]
         ]
     },
@@ -1355,7 +1434,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 900,
-        "y": 920,
+        "y": 960,
         "wires": [
             []
         ]
@@ -1400,7 +1479,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 860,
+        "y": 900,
         "wires": [
             []
         ]
@@ -1427,7 +1506,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 170,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "0e5467e442361569"
@@ -1474,7 +1553,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 980,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -1493,10 +1572,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 980,
+        "y": 1020,
         "wires": [
             [
-                "eb3a677c65e3d43e"
+                "eb3a677c65e3d43e",
+                "a4d6887f660bba58"
             ]
         ]
     },
@@ -1514,10 +1594,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             [
-                "e28a1b6545d8f88c"
+                "e28a1b6545d8f88c",
+                "218e18966a8f365b"
             ]
         ]
     },
@@ -1561,7 +1642,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1040,
+        "y": 1080,
         "wires": [
             []
         ]
@@ -1585,7 +1666,7 @@
         "fontSize": "20",
         "color": "#0f22ae",
         "x": 500,
-        "y": 820,
+        "y": 860,
         "wires": []
     },
     {
@@ -1602,13 +1683,14 @@
         "handleDocId": false,
         "name": "",
         "x": 510,
-        "y": 1300,
+        "y": 1360,
         "wires": [
             [
                 "843306742c87cca7",
                 "b189cbe958ad48e9",
                 "76e0d6f24975cb7f",
-                "048740a15c8911a7"
+                "048740a15c8911a7",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -1635,7 +1717,7 @@
         "payload": "{}",
         "payloadType": "json",
         "x": 170,
-        "y": 1300,
+        "y": 1360,
         "wires": [
             [
                 "3a6d8130dd111692"
@@ -1656,7 +1738,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 1300,
+        "y": 1360,
         "wires": [
             [
                 "a2da559b3aee3cac"
@@ -1677,10 +1759,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
-                "0eb2880ada7beaba"
+                "0eb2880ada7beaba",
+                "279573798d1f7768"
             ]
         ]
     },
@@ -1709,11 +1792,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -1723,7 +1814,7 @@
         "splitLayout": false,
         "className": "",
         "x": 170,
-        "y": 1380,
+        "y": 1440,
         "wires": [
             [
                 "095a1ae08ec1140d"
@@ -1736,7 +1827,7 @@
         "z": "bc70283693a5505d",
         "g": "c95b710f0ef9ba35",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-04\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-04\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-04\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1744,7 +1835,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1380,
+        "y": 1440,
         "wires": [
             [
                 "a2da559b3aee3cac"
@@ -1765,10 +1856,11 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 1280,
+        "y": 1340,
         "wires": [
             [
-                "7a59773f3316ea80"
+                "7a59773f3316ea80",
+                "74b19042c3d582f7"
             ]
         ]
     },
@@ -1812,7 +1904,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 900,
-        "y": 1280,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -1857,7 +1949,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             []
         ]
@@ -1884,7 +1976,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 170,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "3a6d8130dd111692"
@@ -1931,7 +2023,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1340,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -1950,10 +2042,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1340,
+        "y": 1400,
         "wires": [
             [
-                "9b99fda537e90599"
+                "9b99fda537e90599",
+                "0a95d8c7778bc1ad"
             ]
         ]
     },
@@ -1971,10 +2064,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1400,
+        "y": 1460,
         "wires": [
             [
-                "29055774fb469802"
+                "29055774fb469802",
+                "9c6dc8f57a553455"
             ]
         ]
     },
@@ -2018,7 +2112,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1400,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -2042,14 +2136,14 @@
         "fontSize": "20",
         "color": "#0f22ae",
         "x": 500,
-        "y": 1180,
+        "y": 1240,
         "wires": []
     },
     {
         "id": "bd372aed04631208",
         "type": "mongodb4",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "clientNode": "6c246c6eea0c6943",
         "mode": "collection",
         "collection": "temp_sensor",
@@ -2059,13 +2153,14 @@
         "handleDocId": false,
         "name": "",
         "x": 510,
-        "y": 1640,
+        "y": 1760,
         "wires": [
             [
                 "9f428113b4d17208",
                 "c9d79a214925595f",
                 "bfbcaeb6808ae830",
-                "443564a756d194e6"
+                "443564a756d194e6",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -2073,7 +2168,7 @@
         "id": "1448fa4280994e6a",
         "type": "inject",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "",
         "props": [
             {
@@ -2092,7 +2187,7 @@
         "payload": "{}",
         "payloadType": "json",
         "x": 170,
-        "y": 1640,
+        "y": 1760,
         "wires": [
             [
                 "39dc16886c52c3a3"
@@ -2103,7 +2198,7 @@
         "id": "39dc16886c52c3a3",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "1 Day Data",
         "func": "// Get the current date and time\nvar endDate = new Date();\n\n// Calculate the date 1 day before the current date\nvar startDate = new Date();\nstartDate.setDate(endDate.getDate() - 1);\n\n// Create the query object\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-06\"\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -2113,7 +2208,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 1640,
+        "y": 1760,
         "wires": [
             [
                 "bd372aed04631208"
@@ -2124,7 +2219,7 @@
         "id": "9f428113b4d17208",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Temperature",
         "func": "var results = msg.payload; \nvar temperature_data = [];\nvar min_temperature_data = [];\nvar max_temperature_data = [];\n\nfor (var i = 0; i < results.length; i++) {\n\n    var temp = parseFloat(results[i].data.temperature).toFixed(2);\n    var tempMin = parseFloat(results[i].data.temperature_min).toFixed(2);\n    var tempMax = parseFloat(results[i].data.temperature_max).toFixed(2);\n\n    temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(temp)\n    });\n    min_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMin)\n    });\n    max_temperature_data.push({\n        \"x\": results[i].timestamp,\n        \"y\": parseFloat(tempMax)\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Temperature\", \"Temperature Max\", \"Temperature Min\"],\n    \"data\": [\n        temperature_data,\n        min_temperature_data,\n        max_temperature_data\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -2134,7 +2229,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "c7d3430d192cb84e"
@@ -2145,7 +2240,7 @@
         "id": "cf11b0139d15f504",
         "type": "ui_form",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Select Time",
         "label": "Select Time",
         "group": "e94fdd1c5dec442c",
@@ -2166,11 +2261,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -2180,7 +2283,7 @@
         "splitLayout": false,
         "className": "",
         "x": 170,
-        "y": 1720,
+        "y": 1840,
         "wires": [
             [
                 "137b5b4e82797e01"
@@ -2191,9 +2294,9 @@
         "id": "137b5b4e82797e01",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-06\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-06\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-06\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2201,7 +2304,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1720,
+        "y": 1840,
         "wires": [
             [
                 "bd372aed04631208"
@@ -2212,7 +2315,7 @@
         "id": "c9d79a214925595f",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Humidity",
         "func": "var results = msg.payload; \nvar humidity = [];\n\nfor (var i = 0; i < results.length; i++) {\n    humidity.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.humidity\n    })\n}\n\nmsg.payload = [{\n    \"series\": [\"Relative Humidity\"],\n    \"data\": [\n        humidity\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -2222,7 +2325,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 1620,
+        "y": 1740,
         "wires": [
             [
                 "301139d4436286a3"
@@ -2233,7 +2336,7 @@
         "id": "301139d4436286a3",
         "type": "ui_chart",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Humidity",
         "group": "e94fdd1c5dec442c",
         "order": 10,
@@ -2269,16 +2372,18 @@
         "useDifferentColor": false,
         "className": "",
         "x": 900,
-        "y": 1620,
+        "y": 1740,
         "wires": [
-            []
+            [
+                "f65db1feef73dd2e"
+            ]
         ]
     },
     {
         "id": "c7d3430d192cb84e",
         "type": "ui_chart",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Temperature",
         "group": "e94fdd1c5dec442c",
         "order": 9,
@@ -2314,16 +2419,18 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1560,
+        "y": 1680,
         "wires": [
-            []
+            [
+                "f05f78990a018a2c"
+            ]
         ]
     },
     {
         "id": "e44ddd4d97874dec",
         "type": "ui_button",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "",
         "group": "e94fdd1c5dec442c",
         "order": 11,
@@ -2341,7 +2448,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 170,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "39dc16886c52c3a3"
@@ -2352,7 +2459,7 @@
         "id": "211389631c60578b",
         "type": "ui_chart",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Illuminance",
         "group": "e94fdd1c5dec442c",
         "order": 12,
@@ -2388,16 +2495,18 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1680,
+        "y": 1800,
         "wires": [
-            []
+            [
+                "ae4a84b5e1ae9dfa"
+            ]
         ]
     },
     {
         "id": "bfbcaeb6808ae830",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "Illuminance",
         "func": "var results = msg.payload; \nvar lux = [];\nvar lux_max = [];\nvar lux_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    lux.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux\n    });\n    lux_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_max\n    });\n    lux_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.lux_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"Illuminance\", \"Maximum Illuminance\", \"Minimum Illuminance\"],\n    \"data\": [\n        lux,\n        lux_max,\n        lux_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -2407,7 +2516,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1680,
+        "y": 1800,
         "wires": [
             [
                 "211389631c60578b"
@@ -2418,7 +2527,7 @@
         "id": "443564a756d194e6",
         "type": "function",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "UV Intensity",
         "func": "var results = msg.payload; \nvar uv = [];\nvar uv_max = [];\nvar uv_min = [];\n\nfor (var i = 0; i < results.length; i++) {\n    uv.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv\n    });\n    uv_max.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_max\n    });\n    uv_min.push({\n        \"x\": results[i].timestamp,\n        \"y\": results[i].data.uv_min\n    });\n}\n\nmsg.payload = [{\n    \"series\": [\"UV Intensity\", \"Maximum UV Intensity\", \"Minimum UV Intensity\"],\n    \"data\": [\n        uv,\n        uv_max,\n        uv_min\n    ],\n    \"labels\": [\"\"]\n}]\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -2428,7 +2537,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1740,
+        "y": 1860,
         "wires": [
             [
                 "e899a59139513804"
@@ -2439,7 +2548,7 @@
         "id": "e899a59139513804",
         "type": "ui_chart",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "name": "UV Intensity",
         "group": "e94fdd1c5dec442c",
         "order": 13,
@@ -2475,16 +2584,18 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1740,
+        "y": 1860,
         "wires": [
-            []
+            [
+                "e919eb6c062e18d6"
+            ]
         ]
     },
     {
         "id": "53c03897a3a1f2c4",
         "type": "ui_text",
         "z": "bc70283693a5505d",
-        "g": "fc506b576d0bcef0",
+        "g": "af1ea1044f640237",
         "group": "e94fdd1c5dec442c",
         "order": 1,
         "width": 0,
@@ -2499,7 +2610,7 @@
         "fontSize": "20",
         "color": "#0f22ae",
         "x": 500,
-        "y": 1520,
+        "y": 1640,
         "wires": []
     },
     {
@@ -2516,13 +2627,14 @@
         "handleDocId": false,
         "name": "",
         "x": 510,
-        "y": 1980,
+        "y": 2160,
         "wires": [
             [
                 "5350d03e715d0051",
                 "8c9268612330ee5b",
                 "0b9f735f39b341f7",
-                "9d332d132e44a12b"
+                "9d332d132e44a12b",
+                "307eecbf901e1e7a"
             ]
         ]
     },
@@ -2549,7 +2661,7 @@
         "payload": "{}",
         "payloadType": "json",
         "x": 170,
-        "y": 1980,
+        "y": 2160,
         "wires": [
             [
                 "d9860eca5db39148"
@@ -2570,7 +2682,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 1980,
+        "y": 2160,
         "wires": [
             [
                 "5046a6a15ee7d97f"
@@ -2591,10 +2703,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             [
-                "47fa8d2e317be4f5"
+                "47fa8d2e317be4f5",
+                "8d88ac2e170a2a75"
             ]
         ]
     },
@@ -2623,11 +2736,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -2637,7 +2758,7 @@
         "splitLayout": false,
         "className": "",
         "x": 170,
-        "y": 2060,
+        "y": 2240,
         "wires": [
             [
                 "c0ba90ae9869a099"
@@ -2650,7 +2771,7 @@
         "z": "bc70283693a5505d",
         "g": "3a9c1833b4c05e0a",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-07\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"sensebox-07\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"sensebox-07\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2658,7 +2779,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 2060,
+        "y": 2240,
         "wires": [
             [
                 "5046a6a15ee7d97f"
@@ -2679,10 +2800,11 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 1960,
+        "y": 2140,
         "wires": [
             [
-                "9ea9c00b920c1124"
+                "9ea9c00b920c1124",
+                "6b5f692ee5606eec"
             ]
         ]
     },
@@ -2726,7 +2848,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 900,
-        "y": 1960,
+        "y": 2140,
         "wires": [
             []
         ]
@@ -2771,7 +2893,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -2798,7 +2920,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 170,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             [
                 "d9860eca5db39148"
@@ -2845,7 +2967,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 2020,
+        "y": 2200,
         "wires": [
             []
         ]
@@ -2864,10 +2986,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 2020,
+        "y": 2200,
         "wires": [
             [
-                "4483fc54dbd049b6"
+                "4483fc54dbd049b6",
+                "9d1f13ee2846f197"
             ]
         ]
     },
@@ -2885,10 +3008,11 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 2080,
+        "y": 2260,
         "wires": [
             [
-                "e4af75d969b4995d"
+                "e4af75d969b4995d",
+                "7ec0090c6fabb488"
             ]
         ]
     },
@@ -2932,7 +3056,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 910,
-        "y": 2080,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -2956,7 +3080,2902 @@
         "fontSize": "20",
         "color": "#0f22ae",
         "x": 500,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "eb2de4b416b6c175",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Temperature",
+        "group": "a5281de7acfee762",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "075370ce2d65b7ec",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Humidity",
+        "group": "a5281de7acfee762",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a23299a2b64b216",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Illuminance",
+        "group": "a5281de7acfee762",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68d822b4122c24bb",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "UV Intensity",
+        "group": "a5281de7acfee762",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3b3aefe8cca83fd",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "group": "a5281de7acfee762",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1120,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "47364060440be65d",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "",
+        "group": "a5281de7acfee762",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "a533cdabe25bbcc5"
+            ]
+        ]
+    },
+    {
+        "id": "cb0c185b3383d45e",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "f769dfedbb3f9361",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "a5281de7acfee762",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "ba536606976c0c0a"
+            ]
+        ]
+    },
+    {
+        "id": "1921553e58ddab82",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Temperature",
+        "group": "f22c80946683f6a8",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c8bac1f47172ffc",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Humidity",
+        "group": "f22c80946683f6a8",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5442f02ddce54e30",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Illuminance",
+        "group": "f22c80946683f6a8",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6bab75f2731b4ed",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "UV Intensity",
+        "group": "f22c80946683f6a8",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdf2762e47c695e7",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "group": "f22c80946683f6a8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e9098045e3568254",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "",
+        "group": "f22c80946683f6a8",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "2e5027e76ceb2584"
+            ]
+        ]
+    },
+    {
+        "id": "91d695cf4709930b",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "9d38849303bb0904",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "f22c80946683f6a8",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 740,
+        "wires": [
+            [
+                "c122a3610a1271e5"
+            ]
+        ]
+    },
+    {
+        "id": "30884a0e0ebc3033",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "",
+        "group": "894ffb0a4bc5684d",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 860,
+        "wires": [
+            [
+                "0e5467e442361569"
+            ]
+        ]
+    },
+    {
+        "id": "8b16c61e4b195406",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "894ffb0a4bc5684d",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1100,
+        "wires": [
+            [
+                "0ef0e35ae2df7ddc"
+            ]
+        ]
+    },
+    {
+        "id": "b3854f5585baa59f",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Temperature",
+        "group": "894ffb0a4bc5684d",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37b1a9417dfa9cd6",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Humidity",
+        "group": "894ffb0a4bc5684d",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4d6887f660bba58",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "Illuminance",
+        "group": "894ffb0a4bc5684d",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "218e18966a8f365b",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "name": "UV Intensity",
+        "group": "894ffb0a4bc5684d",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fafe5d75a23c903",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "c79106f3978724b1",
+        "group": "894ffb0a4bc5684d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1120,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7ab06038ed0756e5",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "",
+        "group": "2227c2cd15473dbf",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1240,
+        "wires": [
+            [
+                "3a6d8130dd111692"
+            ]
+        ]
+    },
+    {
+        "id": "e9284fca82e50250",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "2227c2cd15473dbf",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1480,
+        "wires": [
+            [
+                "095a1ae08ec1140d"
+            ]
+        ]
+    },
+    {
+        "id": "74b19042c3d582f7",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Humidity",
+        "group": "2227c2cd15473dbf",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "279573798d1f7768",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Temperature",
+        "group": "2227c2cd15473dbf",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a95d8c7778bc1ad",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "Illuminance",
+        "group": "2227c2cd15473dbf",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c6dc8f57a553455",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "name": "UV Intensity",
+        "group": "2227c2cd15473dbf",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cd35d7dd0fab841",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "c95b710f0ef9ba35",
+        "group": "2227c2cd15473dbf",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-4",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1100,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "5d60d239aa85acc2",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "",
+        "group": "875b63263cbb26ab",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1640,
+        "wires": [
+            [
+                "39dc16886c52c3a3"
+            ]
+        ]
+    },
+    {
+        "id": "b0e544a311df3473",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "875b63263cbb26ab",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Data Download",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 1880,
+        "wires": [
+            [
+                "137b5b4e82797e01"
+            ]
+        ]
+    },
+    {
+        "id": "f65db1feef73dd2e",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "Humidity",
+        "group": "875b63263cbb26ab",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f05f78990a018a2c",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "Temperature",
+        "group": "875b63263cbb26ab",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae4a84b5e1ae9dfa",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "Illuminance",
+        "group": "875b63263cbb26ab",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e919eb6c062e18d6",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "name": "UV Intensity",
+        "group": "875b63263cbb26ab",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
         "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f286f0d2a063e1c",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "af1ea1044f640237",
+        "group": "875b63263cbb26ab",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-6",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1120,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "719a09cd5e971b30",
+        "type": "ui_button",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "",
+        "group": "2f8d4cbc385125d3",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 2040,
+        "wires": [
+            [
+                "d9860eca5db39148"
+            ]
+        ]
+    },
+    {
+        "id": "2e7cf8e7d19c94a6",
+        "type": "ui_form",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "2f8d4cbc385125d3",
+        "order": 8,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 170,
+        "y": 2280,
+        "wires": [
+            [
+                "c0ba90ae9869a099"
+            ]
+        ]
+    },
+    {
+        "id": "6b5f692ee5606eec",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Humidity",
+        "group": "2f8d4cbc385125d3",
+        "order": 10,
+        "width": 7,
+        "height": 6,
+        "label": "Humidity (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1100,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d88ac2e170a2a75",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Temperature",
+        "group": "2f8d4cbc385125d3",
+        "order": 9,
+        "width": 15,
+        "height": 6,
+        "label": "Temperature (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d1f13ee2846f197",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "Illuminance",
+        "group": "2f8d4cbc385125d3",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Illuminance (lx)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ec0090c6fabb488",
+        "type": "ui_chart",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "name": "UV Intensity",
+        "group": "2f8d4cbc385125d3",
+        "order": 13,
+        "width": 13,
+        "height": 6,
+        "label": "UV Intensity (µW⋅cm⁻²)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 2260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c0d310434edc650",
+        "type": "ui_text",
+        "z": "bc70283693a5505d",
+        "g": "3a9c1833b4c05e0a",
+        "group": "2f8d4cbc385125d3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SENSEBOX-7",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1120,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "292f64cdccfa2def",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 940,
+        "wires": [
+            [
+                "7c260b800203348b"
+            ]
+        ]
+    },
+    {
+        "id": "7c260b800203348b",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 1830,
+        "y": 940,
+        "wires": [
+            [
+                "8b8f5f47134acc99"
+            ]
+        ]
+    },
+    {
+        "id": "8b8f5f47134acc99",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2000,
+        "y": 940,
+        "wires": [
+            [
+                "3864f32916e4756b"
+            ]
+        ]
+    },
+    {
+        "id": "3864f32916e4756b",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2180,
+        "y": 940,
+        "wires": [
+            [
+                "504c4ecd63527cc6"
+            ]
+        ]
+    },
+    {
+        "id": "504c4ecd63527cc6",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2380,
+        "y": 940,
+        "wires": [
+            [
+                "d59d665334aefe8c"
+            ]
+        ]
+    },
+    {
+        "id": "d59d665334aefe8c",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "d6de265f36f661c0",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2580,
+        "y": 940,
+        "wires": [
+            [
+                "2292a91b9f12ab8c"
+            ]
+        ]
+    },
+    {
+        "id": "2292a91b9f12ab8c",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2740,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "dc6dd140bfd85511",
+        "type": "http in",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "url": "temp_sensor",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1470,
+        "y": 1340,
+        "wires": [
+            [
+                "8f54daf7315ba40b"
+            ]
+        ]
+    },
+    {
+        "id": "8f54daf7315ba40b",
+        "type": "file in",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": ".node-red/data/static_files/temp_sensor.csv",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1810,
+        "y": 1340,
+        "wires": [
+            [
+                "c1f9725b472cf664"
+            ]
+        ]
+    },
+    {
+        "id": "c1f9725b472cf664",
+        "type": "http response",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Disposition": "attachment; filename=\"Temperature_sensor_data.csv\"",
+            "Content-Type": "text/csv"
+        },
+        "x": 2070,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "307eecbf901e1e7a",
+        "type": "switch",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "property": "action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "normal",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "seperate",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1430,
+        "y": 1040,
+        "wires": [
+            [
+                "292f64cdccfa2def"
+            ],
+            [
+                "af6d5f795bc79edf"
+            ]
+        ]
+    },
+    {
+        "id": "af6d5f795bc79edf",
+        "type": "switch",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "property": "device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sensebox-01",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensebox-02",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensebox-03",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensebox-04",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensebox-06",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sensebox-07",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 1590,
+        "y": 1160,
+        "wires": [
+            [
+                "fa80fd69ae9f3d8e"
+            ],
+            [
+                "6dc0fbb8755c53ce"
+            ],
+            [
+                "e7c3d8a45b5fb2d1"
+            ],
+            [
+                "1547f8316d4f354b"
+            ],
+            [
+                "9d83564090243150"
+            ],
+            [
+                "34def32c79a2dab1"
+            ]
+        ]
+    },
+    {
+        "id": "fa80fd69ae9f3d8e",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1060,
+        "wires": [
+            [
+                "b487fc390a691f2a"
+            ]
+        ]
+    },
+    {
+        "id": "b487fc390a691f2a",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1060,
+        "wires": [
+            [
+                "4588eafdaa14aee4"
+            ]
+        ]
+    },
+    {
+        "id": "4588eafdaa14aee4",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1060,
+        "wires": [
+            [
+                "70e94182dfd340ab"
+            ]
+        ]
+    },
+    {
+        "id": "70e94182dfd340ab",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1060,
+        "wires": [
+            [
+                "5fdc1556c106464f"
+            ]
+        ]
+    },
+    {
+        "id": "5fdc1556c106464f",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1060,
+        "wires": [
+            [
+                "385043f74690af39"
+            ]
+        ]
+    },
+    {
+        "id": "385043f74690af39",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "a5281de7acfee762",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1060,
+        "wires": [
+            [
+                "2f49c6be65498288"
+            ]
+        ]
+    },
+    {
+        "id": "2f49c6be65498288",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 36",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6dc0fbb8755c53ce",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1100,
+        "wires": [
+            [
+                "828cb4ea2ecdae0e"
+            ]
+        ]
+    },
+    {
+        "id": "828cb4ea2ecdae0e",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1100,
+        "wires": [
+            [
+                "0bb20ceb3398323b"
+            ]
+        ]
+    },
+    {
+        "id": "0bb20ceb3398323b",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1100,
+        "wires": [
+            [
+                "8f6db71c1505a80b"
+            ]
+        ]
+    },
+    {
+        "id": "8f6db71c1505a80b",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1100,
+        "wires": [
+            [
+                "2d7ca3d0f05e5505"
+            ]
+        ]
+    },
+    {
+        "id": "2d7ca3d0f05e5505",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1100,
+        "wires": [
+            [
+                "8f4fed59d63e8b7d"
+            ]
+        ]
+    },
+    {
+        "id": "8f4fed59d63e8b7d",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "f22c80946683f6a8",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1100,
+        "wires": [
+            [
+                "b99ba0c45bd919ab"
+            ]
+        ]
+    },
+    {
+        "id": "b99ba0c45bd919ab",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "e7c3d8a45b5fb2d1",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1140,
+        "wires": [
+            [
+                "6e7a3aed275988f8"
+            ]
+        ]
+    },
+    {
+        "id": "6e7a3aed275988f8",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1140,
+        "wires": [
+            [
+                "fd1db3049cebd30a"
+            ]
+        ]
+    },
+    {
+        "id": "fd1db3049cebd30a",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1140,
+        "wires": [
+            [
+                "cc1318df68ba6c9b"
+            ]
+        ]
+    },
+    {
+        "id": "cc1318df68ba6c9b",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1140,
+        "wires": [
+            [
+                "d775106028eaa491"
+            ]
+        ]
+    },
+    {
+        "id": "d775106028eaa491",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1140,
+        "wires": [
+            [
+                "e147988980ff8557"
+            ]
+        ]
+    },
+    {
+        "id": "e147988980ff8557",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "894ffb0a4bc5684d",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1140,
+        "wires": [
+            [
+                "72d878491277c5ea"
+            ]
+        ]
+    },
+    {
+        "id": "72d878491277c5ea",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 38",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "1547f8316d4f354b",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1180,
+        "wires": [
+            [
+                "58d7c17a581218fe"
+            ]
+        ]
+    },
+    {
+        "id": "58d7c17a581218fe",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1180,
+        "wires": [
+            [
+                "bc81703b5a1999c7"
+            ]
+        ]
+    },
+    {
+        "id": "bc81703b5a1999c7",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1180,
+        "wires": [
+            [
+                "808d24e8f7f20476"
+            ]
+        ]
+    },
+    {
+        "id": "808d24e8f7f20476",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1180,
+        "wires": [
+            [
+                "a4eb2beb1c0ea5d5"
+            ]
+        ]
+    },
+    {
+        "id": "a4eb2beb1c0ea5d5",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1180,
+        "wires": [
+            [
+                "52ee00a1dc70b1b0"
+            ]
+        ]
+    },
+    {
+        "id": "52ee00a1dc70b1b0",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "2227c2cd15473dbf",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1180,
+        "wires": [
+            [
+                "dd3121a66364960a"
+            ]
+        ]
+    },
+    {
+        "id": "dd3121a66364960a",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 39",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "9d83564090243150",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1220,
+        "wires": [
+            [
+                "3b69d5898380cc53"
+            ]
+        ]
+    },
+    {
+        "id": "3b69d5898380cc53",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1220,
+        "wires": [
+            [
+                "f5570548a189a78f"
+            ]
+        ]
+    },
+    {
+        "id": "f5570548a189a78f",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1220,
+        "wires": [
+            [
+                "150e3f9d50f8eeef"
+            ]
+        ]
+    },
+    {
+        "id": "150e3f9d50f8eeef",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1220,
+        "wires": [
+            [
+                "89d967fd6241117c"
+            ]
+        ]
+    },
+    {
+        "id": "89d967fd6241117c",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1220,
+        "wires": [
+            [
+                "bff1f4ab1a590d8f"
+            ]
+        ]
+    },
+    {
+        "id": "bff1f4ab1a590d8f",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "875b63263cbb26ab",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1220,
+        "wires": [
+            [
+                "8ff4d76f17bf6812"
+            ]
+        ]
+    },
+    {
+        "id": "8ff4d76f17bf6812",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 40",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "34def32c79a2dab1",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temperature: parseFloat(results[i].data.temperature).toFixed(2),\n            temperature_max: parseFloat(results[i].data.temperature_max).toFixed(2),\n            temperature_min: parseFloat(results[i].data.temperature_min).toFixed(2),\n            temperature_box: parseFloat(results[i].data.temperature_box).toFixed(2),\n            humidity: parseFloat(results[i].data.humidity).toFixed(2),\n            lux: results[i].data.lux,\n            lux_max: results[i].data.lux_max,\n            lux_min: results[i].data.lux_min,\n            pressure: results[i].data.pressure,\n            uv: results[i].data.uv,\n            uv_max: results[i].data.uv_max,\n            uv_min: results[i].data.uv_min, // corrected from un_min\n            fan_active: results[i].data.fan_active\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1820,
+        "y": 1260,
+        "wires": [
+            [
+                "9b7442ee6363bfd8"
+            ]
+        ]
+    },
+    {
+        "id": "9b7442ee6363bfd8",
+        "type": "csv",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2010,
+        "y": 1260,
+        "wires": [
+            [
+                "d71d796a9ec39307"
+            ]
+        ]
+    },
+    {
+        "id": "d71d796a9ec39307",
+        "type": "function",
+        "z": "bc70283693a5505d",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/temp_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1260,
+        "wires": [
+            [
+                "9599cf0f84b638a8"
+            ]
+        ]
+    },
+    {
+        "id": "9599cf0f84b638a8",
+        "type": "file",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2360,
+        "y": 1260,
+        "wires": [
+            [
+                "d382205ad5b406fb"
+            ]
+        ]
+    },
+    {
+        "id": "d382205ad5b406fb",
+        "type": "trigger",
+        "z": "bc70283693a5505d",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2560,
+        "y": 1260,
+        "wires": [
+            [
+                "068d213a065dcf6a"
+            ]
+        ]
+    },
+    {
+        "id": "068d213a065dcf6a",
+        "type": "ui_template",
+        "z": "bc70283693a5505d",
+        "group": "2f8d4cbc385125d3",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/temp_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2760,
+        "y": 1260,
+        "wires": [
+            [
+                "7774fa0f0072663c"
+            ]
+        ]
+    },
+    {
+        "id": "7774fa0f0072663c",
+        "type": "debug",
+        "z": "bc70283693a5505d",
+        "name": "debug 41",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2920,
+        "y": 1260,
         "wires": []
     },
     {
@@ -3022,7 +6041,7 @@
         "name": "sensebox4",
         "tab": "94ac640c96f08ba8",
         "order": 4,
-        "disp": true,
+        "disp": false,
         "width": "26",
         "collapse": false,
         "className": ""
@@ -3050,12 +6069,132 @@
         "className": ""
     },
     {
+        "id": "a5281de7acfee762",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "42506ef4f48f2238",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f22c80946683f6a8",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "a9ef84d6f756cc63",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "894ffb0a4bc5684d",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "89004d97e0d2feca",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2227c2cd15473dbf",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "93250a0f08426bfd",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "875b63263cbb26ab",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "872f34352fd8d2e6",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2f8d4cbc385125d3",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "85400c10e1d73267",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "94ac640c96f08ba8",
         "type": "ui_tab",
         "name": "Temperature Sensor Dashboard",
-        "icon": "dashboard",
+        "icon": "mi-device_thermostat",
         "order": 5,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "42506ef4f48f2238",
+        "type": "ui_tab",
+        "name": "Sensebox1",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "a9ef84d6f756cc63",
+        "type": "ui_tab",
+        "name": "Sensebox2",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "89004d97e0d2feca",
+        "type": "ui_tab",
+        "name": "Sensebox3",
+        "icon": "dashboard",
+        "order": 9,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "93250a0f08426bfd",
+        "type": "ui_tab",
+        "name": "Sensebox4",
+        "icon": "dashboard",
+        "order": 10,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "872f34352fd8d2e6",
+        "type": "ui_tab",
+        "name": "Sensebox6",
+        "icon": "dashboard",
+        "order": 11,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "85400c10e1d73267",
+        "type": "ui_tab",
+        "name": "Sensebox7",
+        "icon": "dashboard",
+        "order": 12,
+        "disabled": false,
+        "hidden": true
     }
 ]

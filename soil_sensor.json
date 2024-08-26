@@ -31,11 +31,16 @@
             "242be5c39dd97c35",
             "9d8ca530ce7a8fe6",
             "1d3c5cb12682fd44",
-            "4be4a97e523353ae"
+            "4be4a97e523353ae",
+            "94ba9f44e774b5d3",
+            "391e880e222365df",
+            "89aef8527d89cfc8",
+            "9dc3e010eb5a4c11",
+            "10fd35a071370328"
         ],
         "x": 1234,
         "y": 79,
-        "w": 792,
+        "w": 1092,
         "h": 242
     },
     {
@@ -62,11 +67,16 @@
             "961598c082d2c47d",
             "762c98afb44e9aeb",
             "375460a0719dbc93",
-            "9a48ef428dca614c"
+            "9a48ef428dca614c",
+            "44d300d3131f5218",
+            "9a8a18d3d1c5c708",
+            "bb4ad7e6772dd40e",
+            "47f9e8ee14e9d134",
+            "5d7ff1bd846c255a"
         ],
         "x": 1234,
         "y": 359,
-        "w": 792,
+        "w": 1092,
         "h": 242
     },
     {
@@ -93,11 +103,16 @@
             "7b23ca937567bd61",
             "92ede44d8f222de6",
             "5908878471cbcfc5",
-            "3713f5157f517f7a"
+            "3713f5157f517f7a",
+            "5c4ab044b60a5b30",
+            "549496de3c20a1cf",
+            "253e08ddf55f68f1",
+            "2e00a6a6c6c623e8",
+            "31d3c9782a35c2d4"
         ],
         "x": 1234,
         "y": 639,
-        "w": 792,
+        "w": 1092,
         "h": 242
     },
     {
@@ -124,11 +139,16 @@
             "3f486393d495b909",
             "07f14f3959225a89",
             "1ef4d418fa92becc",
-            "28da842ed89ac72d"
+            "28da842ed89ac72d",
+            "dc4024092f5ab783",
+            "47b7ed85e8856128",
+            "089a301aae5b4c15",
+            "15dce1e5381b6d10",
+            "5cdeb5c1a9860cf2"
         ],
-        "x": 2114,
+        "x": 2354,
         "y": 79,
-        "w": 792,
+        "w": 1092,
         "h": 242
     },
     {
@@ -155,11 +175,16 @@
             "04e44647e56a6241",
             "0a69e6d48a811d85",
             "462212ccb183fc47",
-            "4bda3f1fd6c91b56"
+            "4bda3f1fd6c91b56",
+            "0991eff36f303ac4",
+            "aecc06e6034e6e1a",
+            "b73d41317baf1b0e",
+            "5032bef450a8cca1",
+            "4a378ff7ff3bf66f"
         ],
-        "x": 2114,
+        "x": 2354,
         "y": 359,
-        "w": 792,
+        "w": 1092,
         "h": 242
     },
     {
@@ -224,7 +249,8 @@
                 "7e794dc9e0edacb2",
                 "86380fd3535c869f",
                 "6501355bea310b65",
-                "65f3349637b23aa2"
+                "65f3349637b23aa2",
+                "e29db05210299c7d"
             ]
         ]
     },
@@ -411,7 +437,8 @@
         "y": 120,
         "wires": [
             [
-                "70bd2598b3dc9752"
+                "70bd2598b3dc9752",
+                "94ba9f44e774b5d3"
             ]
         ]
     },
@@ -432,7 +459,8 @@
         "y": 160,
         "wires": [
             [
-                "242be5c39dd97c35"
+                "242be5c39dd97c35",
+                "89aef8527d89cfc8"
             ]
         ]
     },
@@ -453,7 +481,8 @@
         "y": 200,
         "wires": [
             [
-                "7aef85e93b48cfb8"
+                "7aef85e93b48cfb8",
+                "391e880e222365df"
             ]
         ]
     },
@@ -474,7 +503,8 @@
         "y": 240,
         "wires": [
             [
-                "9d8ca530ce7a8fe6"
+                "9d8ca530ce7a8fe6",
+                "9dc3e010eb5a4c11"
             ]
         ]
     },
@@ -633,7 +663,8 @@
         "y": 280,
         "wires": [
             [
-                "1d3c5cb12682fd44"
+                "1d3c5cb12682fd44",
+                "10fd35a071370328"
             ]
         ]
     },
@@ -684,7 +715,8 @@
         "y": 400,
         "wires": [
             [
-                "e493a72b0bf83b5f"
+                "e493a72b0bf83b5f",
+                "44d300d3131f5218"
             ]
         ]
     },
@@ -705,7 +737,8 @@
         "y": 440,
         "wires": [
             [
-                "961598c082d2c47d"
+                "961598c082d2c47d",
+                "bb4ad7e6772dd40e"
             ]
         ]
     },
@@ -726,7 +759,8 @@
         "y": 480,
         "wires": [
             [
-                "80b4ef5975bb134d"
+                "80b4ef5975bb134d",
+                "9a8a18d3d1c5c708"
             ]
         ]
     },
@@ -747,7 +781,8 @@
         "y": 520,
         "wires": [
             [
-                "762c98afb44e9aeb"
+                "762c98afb44e9aeb",
+                "47f9e8ee14e9d134"
             ]
         ]
     },
@@ -906,7 +941,8 @@
         "y": 560,
         "wires": [
             [
-                "375460a0719dbc93"
+                "375460a0719dbc93",
+                "5d7ff1bd846c255a"
             ]
         ]
     },
@@ -957,7 +993,8 @@
         "y": 680,
         "wires": [
             [
-                "a3049f0ee1b6c504"
+                "a3049f0ee1b6c504",
+                "5c4ab044b60a5b30"
             ]
         ]
     },
@@ -978,7 +1015,8 @@
         "y": 720,
         "wires": [
             [
-                "7b23ca937567bd61"
+                "7b23ca937567bd61",
+                "253e08ddf55f68f1"
             ]
         ]
     },
@@ -999,7 +1037,8 @@
         "y": 760,
         "wires": [
             [
-                "a9ff9d312565c663"
+                "a9ff9d312565c663",
+                "549496de3c20a1cf"
             ]
         ]
     },
@@ -1020,7 +1059,8 @@
         "y": 800,
         "wires": [
             [
-                "92ede44d8f222de6"
+                "92ede44d8f222de6",
+                "2e00a6a6c6c623e8"
             ]
         ]
     },
@@ -1179,7 +1219,8 @@
         "y": 840,
         "wires": [
             [
-                "5908878471cbcfc5"
+                "5908878471cbcfc5",
+                "31d3c9782a35c2d4"
             ]
         ]
     },
@@ -1201,7 +1242,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2200,
+        "x": 2440,
         "y": 200,
         "wires": [
             [
@@ -1226,11 +1267,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2480,
+        "x": 2720,
         "y": 120,
         "wires": [
             [
-                "68fbc9c76508433f"
+                "68fbc9c76508433f",
+                "dc4024092f5ab783"
             ]
         ]
     },
@@ -1247,11 +1289,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2460,
+        "x": 2700,
         "y": 160,
         "wires": [
             [
-                "3f486393d495b909"
+                "3f486393d495b909",
+                "089a301aae5b4c15"
             ]
         ]
     },
@@ -1268,11 +1311,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2470,
+        "x": 2710,
         "y": 200,
         "wires": [
             [
-                "e0b9619d3d14673a"
+                "e0b9619d3d14673a",
+                "47b7ed85e8856128"
             ]
         ]
     },
@@ -1289,11 +1333,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2470,
+        "x": 2710,
         "y": 240,
         "wires": [
             [
-                "07f14f3959225a89"
+                "07f14f3959225a89",
+                "15dce1e5381b6d10"
             ]
         ]
     },
@@ -1322,7 +1367,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 120,
         "wires": []
     },
@@ -1351,7 +1396,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2740,
+        "x": 2980,
         "y": 200,
         "wires": []
     },
@@ -1380,7 +1425,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 160,
         "wires": []
     },
@@ -1409,7 +1454,7 @@
         "seg2": "350",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 240,
         "wires": []
     },
@@ -1431,7 +1476,7 @@
         "font": "Georgia,Georgia,serif",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2700,
+        "x": 2940,
         "y": 280,
         "wires": []
     },
@@ -1448,11 +1493,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2420,
+        "x": 2660,
         "y": 280,
         "wires": [
             [
-                "1ef4d418fa92becc"
+                "1ef4d418fa92becc",
+                "5cdeb5c1a9860cf2"
             ]
         ]
     },
@@ -1474,7 +1520,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2200,
+        "x": 2440,
         "y": 480,
         "wires": [
             [
@@ -1499,11 +1545,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2480,
+        "x": 2720,
         "y": 400,
         "wires": [
             [
-                "102f9a8046479be3"
+                "102f9a8046479be3",
+                "0991eff36f303ac4"
             ]
         ]
     },
@@ -1520,11 +1567,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2460,
+        "x": 2700,
         "y": 440,
         "wires": [
             [
-                "04e44647e56a6241"
+                "04e44647e56a6241",
+                "b73d41317baf1b0e"
             ]
         ]
     },
@@ -1541,11 +1589,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2470,
+        "x": 2710,
         "y": 480,
         "wires": [
             [
-                "6186ef6303838264"
+                "6186ef6303838264",
+                "aecc06e6034e6e1a"
             ]
         ]
     },
@@ -1562,11 +1611,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2470,
+        "x": 2710,
         "y": 520,
         "wires": [
             [
-                "0a69e6d48a811d85"
+                "0a69e6d48a811d85",
+                "5032bef450a8cca1"
             ]
         ]
     },
@@ -1595,7 +1645,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 400,
         "wires": []
     },
@@ -1624,7 +1674,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2740,
+        "x": 2980,
         "y": 480,
         "wires": []
     },
@@ -1653,7 +1703,7 @@
         "seg2": "70",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 440,
         "wires": []
     },
@@ -1682,7 +1732,7 @@
         "seg2": "350",
         "diff": false,
         "className": "",
-        "x": 2760,
+        "x": 3000,
         "y": 520,
         "wires": []
     },
@@ -1704,7 +1754,7 @@
         "font": "Georgia,Georgia,serif",
         "fontSize": 16,
         "color": "#000000",
-        "x": 2700,
+        "x": 2940,
         "y": 560,
         "wires": []
     },
@@ -1721,13 +1771,766 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2420,
+        "x": 2660,
         "y": 560,
         "wires": [
             [
-                "462212ccb183fc47"
+                "462212ccb183fc47",
+                "4a378ff7ff3bf66f"
             ]
         ]
+    },
+    {
+        "id": "e29db05210299c7d",
+        "type": "function",
+        "z": "b50396a4b33e90b1",
+        "name": "Soil Sensor Summary",
+        "func": "var att = msg.payload;\nvar sensor = att.device_id;\n\n// Retrieve existing sensor data from context\nvar data = context.get('sensorData') || {\n    sensor_id1: 'eui-a840412881881c6a',\n    temp_soil1: null,\n    water_soil1: null,\n    sensor_id2: 'eui-a840412881881c6a',\n    temp_soil2: null,\n    water_soil2: null,\n    sensor_id3: 'eui-a84041e0c1881c65',\n    temp_soil3: null,\n    water_soil3: null,\n    sensor_id4: 'eui-a84041ffb1881c77',\n    temp_soil4: null,\n    water_soil4: null,\n    sensor_id5: 'eui-a840416c21881c78',\n    temp_soil5: null,\n    water_soil5: null\n};\n\n// Update the relevant sensor data\nif (sensor == 'eui-a840412881881c6a') {\n    data.temp_soil1 = parseFloat(att.data.temp_soil).toFixed(2);\n    data.water_soil1 = att.data.water_soil;\n}\n\nif (sensor == 'eui-a840412881881c6a') {\n    data.temp_soil2 = parseFloat(att.data.temp_soil).toFixed(2);\n    data.water_soil2 = att.data.water_soil;\n}\n\nif (sensor == 'eui-a84041e0c1881c65') {\n    data.temp_soil3 = parseFloat(att.data.temp_soil).toFixed(2);\n    data.water_soil3 = att.data.water_soil;\n}\n\nif (sensor == 'eui-a84041ffb1881c77') {\n    data.temp_soil4 = parseFloat(att.data.temp_soil).toFixed(2);\n    data.water_soil4 = att.data.water_soil;\n}\n\nif (sensor == 'eui-a840416c21881c78') {\n    data.temp_soil5 = parseFloat(att.data.temp_soil).toFixed(2);\n    data.water_soil5 = att.data.water_soil;\n}\n\n// Store the updated data back in context\ncontext.set('sensorData', data);\n\n// Set the updated data as the message payload\nmsg.payload = data;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 720,
+        "wires": [
+            [
+                "7606d531339c3610"
+            ]
+        ]
+    },
+    {
+        "id": "7606d531339c3610",
+        "type": "ui_template",
+        "z": "b50396a4b33e90b1",
+        "group": "80171453c5dc622f",
+        "name": "Soil Sensor Table",
+        "order": 2,
+        "width": 14,
+        "height": "8",
+        "format": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Soil Sensor</title>\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js\"></script>\n    <style>\n        .normal {\n            background-color: #85dc85 !important;\n        }\n        .orange {\n            background-color: #f4d03f  !important; \n        }\n        .red {\n            background-color: #e74c3c  !important;\n        }\n\n        .col-sensor {\n            width: 30%;\n        }\n        .col-temp {\n            width: 25%;\n        }\n        .col-humidity {\n            width: 25%;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <table class=\"table table-striped table-bordered table-hover text-center\">\n            <thead class=\"table-primary\">\n                <tr>\n                    <th class=\"col-sensor\">Sensor ID</th>\n                    <th class=\"col-temp\">Soil Temperature (°C)</th>\n                    <th class=\"col-humidity\">Soil Water</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td><a href=\"#!/11?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\"><button class=\"btn btn-light\">{{msg.payload.sensor_id1}}</button></a></td>\n\n                    <td ng-class=\"{'normal': msg.payload.temp_soil1<=18, 'orange': msg.payload.temp_soil1>18 && msg.payload.temp_soil1<=22, 'red':msg.payload.temp_soil1>22}\">{{msg.payload.temp_soil1}}</td>\n\n                    <td ng-class=\"{'normal': msg.payload.water_soil1<=25, 'orange': msg.payload.water_soil1>25 && msg.payload.water_soil1<=45, 'red':msg.payload.water_soil1>45}\">{{msg.payload.water_soil1}}</td>\n                    \n                </tr>\n                <tr>\n                    <td><a href=\"#!/12?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\"><button class=\"btn btn-light\">{{msg.payload.sensor_id2}}</button></a></td>\n\n                    <td ng-class=\"{'normal': msg.payload.temp_soil2<=18, 'orange': msg.payload.temp_soil2>18 && msg.payload.temp_soil2<=22, 'red':msg.payload.temp_soil2>22}\">{{msg.payload.temp_soil2}}</td>\n\n                    <td ng-class=\"{'normal': msg.payload.water_soil2<=25, 'orange': msg.payload.water_soil2>25 && msg.payload.water_soil2<=45, 'red':msg.payload.water_soil2>45}\">{{msg.payload.water_soil2}}</td>\n                    \n                </tr>\n                <tr>\n                    <td><a href=\"#!/13?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\"><button class=\"btn btn-light\">{{msg.payload.sensor_id3}}</button></a></td>\n\n                    <td ng-class=\"{'normal': msg.payload.temp_soil3<=18, 'orange': msg.payload.temp_soil3>18 && msg.payload.temp_soil3<=22, 'red':msg.payload.temp_soil3>22}\">{{msg.payload.temp_soil3}}</td>\n\n                    <td ng-class=\"{'normal': msg.payload.water_soil3<=25, 'orange': msg.payload.water_soil3>25 && msg.payload.water_soil3<=45, 'red':msg.payload.water_soil3>45}\">{{msg.payload.water_soil3}}</td>\n                    \n                </tr>\n                <tr>\n                    <td><a href=\"#!/14?socketid=P6thRpRp8T7Or8VCAAaF\" target=\"_blank\"><button class=\"btn btn-light\">{{msg.payload.sensor_id4}}</button></a></td>\n\n                    <td ng-class=\"{'normal': msg.payload.temp_soil4<=18, 'orange': msg.payload.temp_soil4>18 && msg.payload.temp_soil4<=22, 'red':msg.payload.temp_soil4>22}\">{{msg.payload.temp_soil4}}</td>\n\n                    <td ng-class=\"{'normal': msg.payload.water_soil4<=25, 'orange': msg.payload.water_soil4>25 && msg.payload.water_soil4<=45, 'red':msg.payload.water_soil4>45}\">{{msg.payload.water_soil4}}</td>\n                    \n                </tr>\n                <tr>\n                    <td><a href=\"#!/15?socketid=rPhLCHLGC2EpLY5gAAaQ\" target=\"_blank\"><button class=\"btn btn-light\">{{msg.payload.sensor_id5}}</button></a></td>\n\n                    <td ng-class=\"{'normal': msg.payload.temp_soil5<=18, 'orange': msg.payload.temp_soil5>18 && msg.payload.temp_soil5<=22, 'red':msg.payload.temp_soil5>22}\">{{msg.payload.temp_soil5}}</td>\n\n                    <td ng-class=\"{'normal': msg.payload.water_soil5<=25, 'orange': msg.payload.water_soil5>25 && msg.payload.water_soil5<=45, 'red':msg.payload.water_soil5>45}\">{{msg.payload.water_soil5}}</td>\n                    \n                </tr>\n               \n            </tbody>\n        </table>\n    </div>\n</body>\n</html>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 670,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94ba9f44e774b5d3",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "8663c14927fd9226",
+        "name": "Temperature of Soil Gauge",
+        "group": "07177cef4a16e738",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "391e880e222365df",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "8663c14927fd9226",
+        "name": "Battery Voltage Gauge",
+        "group": "07177cef4a16e738",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Battery Voltage",
+        "label": "volt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4.2",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2160,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "89aef8527d89cfc8",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "8663c14927fd9226",
+        "name": "Temperature in Soil Gauge",
+        "group": "07177cef4a16e738",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Water",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "9dc3e010eb5a4c11",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "8663c14927fd9226",
+        "name": "Conductivity of Soil Gauge",
+        "group": "07177cef4a16e738",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Soil Conductivity",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "350",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "10fd35a071370328",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "g": "8663c14927fd9226",
+        "group": "07177cef4a16e738",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "name": "Device ID",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "44d300d3131f5218",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "ef9c31610e5d0f68",
+        "name": "Temperature of Soil Gauge",
+        "group": "dcfb4c81b704c5b9",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9a8a18d3d1c5c708",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "ef9c31610e5d0f68",
+        "name": "Battery Voltage Gauge",
+        "group": "dcfb4c81b704c5b9",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Battery Voltage",
+        "label": "volt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4.2",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2160,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "bb4ad7e6772dd40e",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "ef9c31610e5d0f68",
+        "name": "Temperature in Soil Gauge",
+        "group": "dcfb4c81b704c5b9",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Water",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "47f9e8ee14e9d134",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "ef9c31610e5d0f68",
+        "name": "Conductivity of Soil Gauge",
+        "group": "dcfb4c81b704c5b9",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Soil Conductivity",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "350",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5d7ff1bd846c255a",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "g": "ef9c31610e5d0f68",
+        "group": "dcfb4c81b704c5b9",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "name": "Device ID",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2120,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "5c4ab044b60a5b30",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "f9895c6258bd1c27",
+        "name": "Temperature of Soil Gauge",
+        "group": "2ace20c313dc6130",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "549496de3c20a1cf",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "f9895c6258bd1c27",
+        "name": "Battery Voltage Gauge",
+        "group": "2ace20c313dc6130",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Battery Voltage",
+        "label": "volt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4.2",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2160,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "253e08ddf55f68f1",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "f9895c6258bd1c27",
+        "name": "Temperature in Soil Gauge",
+        "group": "2ace20c313dc6130",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Water",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "2e00a6a6c6c623e8",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "f9895c6258bd1c27",
+        "name": "Conductivity of Soil Gauge",
+        "group": "2ace20c313dc6130",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Soil Conductivity",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "350",
+        "diff": false,
+        "className": "",
+        "x": 2180,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "31d3c9782a35c2d4",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "g": "f9895c6258bd1c27",
+        "group": "2ace20c313dc6130",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "name": "Device ID",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2120,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "dc4024092f5ab783",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "bd7804f9d8f3f54e",
+        "name": "Temperature of Soil Gauge",
+        "group": "c9e43854125296e0",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "47b7ed85e8856128",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "bd7804f9d8f3f54e",
+        "name": "Battery Voltage Gauge",
+        "group": "c9e43854125296e0",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Battery Voltage",
+        "label": "volt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4.2",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3280,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "089a301aae5b4c15",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "bd7804f9d8f3f54e",
+        "name": "Temperature in Soil Gauge",
+        "group": "c9e43854125296e0",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Water",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "15dce1e5381b6d10",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "bd7804f9d8f3f54e",
+        "name": "Conductivity of Soil Gauge",
+        "group": "c9e43854125296e0",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Soil Conductivity",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "350",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5cdeb5c1a9860cf2",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "g": "bd7804f9d8f3f54e",
+        "group": "c9e43854125296e0",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "name": "Device ID",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 3240,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0991eff36f303ac4",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "2185f0a93b1a69a0",
+        "name": "Temperature of Soil Gauge",
+        "group": "3ab557bf8f377e10",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "aecc06e6034e6e1a",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "2185f0a93b1a69a0",
+        "name": "Battery Voltage Gauge",
+        "group": "3ab557bf8f377e10",
+        "order": 3,
+        "width": 5,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Battery Voltage",
+        "label": "volt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4.2",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3280,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b73d41317baf1b0e",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "2185f0a93b1a69a0",
+        "name": "Temperature in Soil Gauge",
+        "group": "3ab557bf8f377e10",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Soil Water",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5032bef450a8cca1",
+        "type": "ui_gauge",
+        "z": "b50396a4b33e90b1",
+        "g": "2185f0a93b1a69a0",
+        "name": "Conductivity of Soil Gauge",
+        "group": "3ab557bf8f377e10",
+        "order": 5,
+        "width": 5,
+        "height": 3,
+        "gtype": "donut",
+        "title": "Soil Conductivity",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "350",
+        "diff": false,
+        "className": "",
+        "x": 3300,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4a378ff7ff3bf66f",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "g": "2185f0a93b1a69a0",
+        "group": "3ab557bf8f377e10",
+        "order": 6,
+        "width": 6,
+        "height": 3,
+        "name": "Device ID",
+        "label": "Device ID",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 3240,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "5d9119479236c712",
+        "type": "ui_text",
+        "z": "b50396a4b33e90b1",
+        "group": "80171453c5dc622f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Soil Sensor",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0527b3",
+        "x": 650,
+        "y": 680,
+        "wires": []
     },
     {
         "id": "3b9fb07e0e6380c8",
@@ -1841,6 +2644,72 @@
         "className": ""
     },
     {
+        "id": "80171453c5dc622f",
+        "type": "ui_group",
+        "name": "temp_sensor",
+        "tab": "625d8c7324cc3ebd",
+        "order": 3,
+        "disp": false,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "07177cef4a16e738",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "0430059312e83e8c",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dcfb4c81b704c5b9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "5cee6376e1eb2a66",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ace20c313dc6130",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "58ee202118ef70c8",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c9e43854125296e0",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "a76c2a7653d64d6b",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ab557bf8f377e10",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "b0838b6eeeaeb895",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "f806ccbe1d3a8e71",
         "type": "ui_tab",
         "name": "Soil Sensor Dashboard",
@@ -1848,5 +2717,59 @@
         "order": 6,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "625d8c7324cc3ebd",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "mi-home",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0430059312e83e8c",
+        "type": "ui_tab",
+        "name": "Device1",
+        "icon": "dashboard",
+        "order": 13,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "5cee6376e1eb2a66",
+        "type": "ui_tab",
+        "name": "Device2",
+        "icon": "dashboard",
+        "order": 14,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "58ee202118ef70c8",
+        "type": "ui_tab",
+        "name": "Device3",
+        "icon": "dashboard",
+        "order": 15,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "a76c2a7653d64d6b",
+        "type": "ui_tab",
+        "name": "Device4",
+        "icon": "dashboard",
+        "order": 16,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "b0838b6eeeaeb895",
+        "type": "ui_tab",
+        "name": "Device5",
+        "icon": "dashboard",
+        "order": 17,
+        "disabled": false,
+        "hidden": true
     }
 ]

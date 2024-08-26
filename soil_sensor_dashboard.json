@@ -35,12 +35,19 @@
             "ea75f5e8a67fd999",
             "616cdaebb11b70c2",
             "0b79eb54d4357784",
-            "a0c409a0e98d077d"
+            "a0c409a0e98d077d",
+            "786ac98442c97dbd",
+            "a162f7827e4eba45",
+            "24a63a3a845b9b18",
+            "d787a026ead01c66",
+            "62edc8a7a73d5ac5",
+            "7ca135f2c347d9c2",
+            "66b726f81813406e"
         ],
         "x": 94,
         "y": 59,
-        "w": 972,
-        "h": 322
+        "w": 1212,
+        "h": 342
     },
     {
         "id": "220f83ebf102e7bf",
@@ -70,12 +77,19 @@
             "8d49cae4cd85336f",
             "40e17e7b437448d5",
             "9296969863a71256",
-            "f575953f1065b21d"
+            "f575953f1065b21d",
+            "e1d0560fe496fb2f",
+            "4d8140ddb77db6f8",
+            "692a313a9995febf",
+            "37859277b31c3929",
+            "90218ac850cdfa75",
+            "625346b025c599b9",
+            "b61c98bb5263e9fc"
         ],
         "x": 94,
         "y": 419,
-        "w": 972,
-        "h": 322
+        "w": 1212,
+        "h": 342
     },
     {
         "id": "899d9b9e2b22d539",
@@ -105,12 +119,19 @@
             "2d98ee66a4f0edf0",
             "908960c771344a49",
             "480f22d087345714",
-            "d65df08e9bb56e6f"
+            "d65df08e9bb56e6f",
+            "d3607e2a7017495d",
+            "828183f93bec7bdf",
+            "9da01625e14bc862",
+            "ed843ec4d5a1fba1",
+            "a7d838d661e714ea",
+            "6706c4602dbb65fc",
+            "058035e3adfa90f2"
         ],
         "x": 94,
         "y": 779,
-        "w": 972,
-        "h": 322
+        "w": 1212,
+        "h": 342
     },
     {
         "id": "2162d783c16cd16b",
@@ -140,12 +161,19 @@
             "5785e9b0d1305e49",
             "1aa148a2f7bebf9a",
             "31714ee08fa90aa4",
-            "ed82df83cea119a5"
+            "ed82df83cea119a5",
+            "88d5d41b67325d09",
+            "4c87f51099aa2c0a",
+            "38a01fcf8fd63456",
+            "97281af6ee6cd475",
+            "b12104ace572564c",
+            "017df30556722f8c",
+            "b6628e5521baf231"
         ],
         "x": 94,
         "y": 1159,
-        "w": 972,
-        "h": 322
+        "w": 1212,
+        "h": 342
     },
     {
         "id": "ef945f45d99b1f23",
@@ -175,12 +203,19 @@
             "62b661bb42354d96",
             "b7906842e32ca339",
             "683652e61fb6c32a",
-            "1befddb440ebe0e1"
+            "1befddb440ebe0e1",
+            "8de9768da415dad6",
+            "c6c8965321be71a2",
+            "512dc37d40698c7b",
+            "063b562d2c8b6208",
+            "35106a0763f0643c",
+            "a21b6429ee7db35a",
+            "9b82a7bef292b644"
         ],
         "x": 94,
         "y": 1539,
-        "w": 972,
-        "h": 322
+        "w": 1212,
+        "h": 342
     },
     {
         "id": "e00f0f19ae85430c",
@@ -202,7 +237,8 @@
                 "e96480476f6148e8",
                 "8ab508fd187a76a7",
                 "9364fc7a7b95f8fa",
-                "1fff0d4839d3733f"
+                "1fff0d4839d3733f",
+                "6d78a181feba120c"
             ]
         ]
     },
@@ -274,7 +310,8 @@
         "y": 160,
         "wires": [
             [
-                "9b79e33ddd96600c"
+                "9b79e33ddd96600c",
+                "24a63a3a845b9b18"
             ]
         ]
     },
@@ -303,11 +340,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -330,7 +375,7 @@
         "z": "1c38872debedfd03",
         "g": "13194d74ba141af5",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840412881881c6a\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840412881881c6a\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"device1\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -362,7 +407,8 @@
         "y": 220,
         "wires": [
             [
-                "ea75f5e8a67fd999"
+                "ea75f5e8a67fd999",
+                "d787a026ead01c66"
             ]
         ]
     },
@@ -412,7 +458,8 @@
         "y": 280,
         "wires": [
             [
-                "616cdaebb11b70c2"
+                "616cdaebb11b70c2",
+                "62edc8a7a73d5ac5"
             ]
         ]
     },
@@ -433,7 +480,8 @@
         "y": 340,
         "wires": [
             [
-                "0b79eb54d4357784"
+                "0b79eb54d4357784",
+                "7ca135f2c347d9c2"
             ]
         ]
     },
@@ -659,7 +707,8 @@
                 "c5603f384540afdf",
                 "0afbf0b606022e64",
                 "9aeb3026fd8cb2c8",
-                "7068949c7b8f75cf"
+                "7068949c7b8f75cf",
+                "6d78a181feba120c"
             ]
         ]
     },
@@ -731,7 +780,8 @@
         "y": 520,
         "wires": [
             [
-                "a782c5d65e93a488"
+                "a782c5d65e93a488",
+                "692a313a9995febf"
             ]
         ]
     },
@@ -760,11 +810,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -787,7 +845,7 @@
         "z": "1c38872debedfd03",
         "g": "220f83ebf102e7bf",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a8404111d1881c80\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a8404111d1881c80\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"device2\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -819,7 +877,8 @@
         "y": 580,
         "wires": [
             [
-                "8d49cae4cd85336f"
+                "8d49cae4cd85336f",
+                "37859277b31c3929"
             ]
         ]
     },
@@ -869,7 +928,8 @@
         "y": 640,
         "wires": [
             [
-                "40e17e7b437448d5"
+                "40e17e7b437448d5",
+                "90218ac850cdfa75"
             ]
         ]
     },
@@ -890,7 +950,8 @@
         "y": 700,
         "wires": [
             [
-                "9296969863a71256"
+                "9296969863a71256",
+                "625346b025c599b9"
             ]
         ]
     },
@@ -1116,7 +1177,8 @@
                 "823baa25b683013b",
                 "3fb0a6501f8b0d8d",
                 "97d4b26bd53d79ff",
-                "a889d076333d1739"
+                "a889d076333d1739",
+                "6d78a181feba120c"
             ]
         ]
     },
@@ -1188,7 +1250,8 @@
         "y": 880,
         "wires": [
             [
-                "e3e2e3c5b7fd7eca"
+                "e3e2e3c5b7fd7eca",
+                "9da01625e14bc862"
             ]
         ]
     },
@@ -1217,11 +1280,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -1244,7 +1315,7 @@
         "z": "1c38872debedfd03",
         "g": "899d9b9e2b22d539",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041e0c1881c65\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041e0c1881c65\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"device3\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1276,7 +1347,8 @@
         "y": 940,
         "wires": [
             [
-                "2d98ee66a4f0edf0"
+                "2d98ee66a4f0edf0",
+                "ed843ec4d5a1fba1"
             ]
         ]
     },
@@ -1326,7 +1398,8 @@
         "y": 1000,
         "wires": [
             [
-                "908960c771344a49"
+                "908960c771344a49",
+                "a7d838d661e714ea"
             ]
         ]
     },
@@ -1347,7 +1420,8 @@
         "y": 1060,
         "wires": [
             [
-                "480f22d087345714"
+                "480f22d087345714",
+                "6706c4602dbb65fc"
             ]
         ]
     },
@@ -1573,7 +1647,8 @@
                 "1c17e83ab9d0ce91",
                 "1a114dc9544c98de",
                 "920756b72688880c",
-                "97c0df4690822f27"
+                "97c0df4690822f27",
+                "6d78a181feba120c"
             ]
         ]
     },
@@ -1645,7 +1720,8 @@
         "y": 1260,
         "wires": [
             [
-                "c8b26d17098f772f"
+                "c8b26d17098f772f",
+                "38a01fcf8fd63456"
             ]
         ]
     },
@@ -1674,11 +1750,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -1701,7 +1785,7 @@
         "z": "1c38872debedfd03",
         "g": "2162d783c16cd16b",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041ffb1881c77\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a84041ffb1881c77\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"device4\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1733,7 +1817,8 @@
         "y": 1320,
         "wires": [
             [
-                "5785e9b0d1305e49"
+                "5785e9b0d1305e49",
+                "97281af6ee6cd475"
             ]
         ]
     },
@@ -1783,7 +1868,8 @@
         "y": 1380,
         "wires": [
             [
-                "1aa148a2f7bebf9a"
+                "1aa148a2f7bebf9a",
+                "b12104ace572564c"
             ]
         ]
     },
@@ -1804,7 +1890,8 @@
         "y": 1440,
         "wires": [
             [
-                "31714ee08fa90aa4"
+                "31714ee08fa90aa4",
+                "017df30556722f8c"
             ]
         ]
     },
@@ -2030,7 +2117,8 @@
                 "12935e482d2dcd27",
                 "3b39a85a4401bf3f",
                 "50052891df74f02b",
-                "1708858422042adc"
+                "1708858422042adc",
+                "6d78a181feba120c"
             ]
         ]
     },
@@ -2102,7 +2190,8 @@
         "y": 1640,
         "wires": [
             [
-                "8c52e8f5a76a03db"
+                "8c52e8f5a76a03db",
+                "512dc37d40698c7b"
             ]
         ]
     },
@@ -2131,11 +2220,19 @@
                 "type": "date",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload",
+                "type": "switch",
+                "required": false,
+                "rows": null
             }
         ],
         "formValue": {
             "startDate": "",
-            "endDate": ""
+            "endDate": "",
+            "dataDownload": false
         },
         "payload": "",
         "submit": "submit",
@@ -2158,7 +2255,7 @@
         "z": "1c38872debedfd03",
         "g": "ef945f45d99b1f23",
         "name": "User Request",
-        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840416c21881c78\"\n};\n\nreturn msg;\n",
+        "func": "var endDate = new Date(msg.payload.endDate);\nvar startDate = new Date(msg.payload.startDate);\n\nif (msg.payload.dataDownload) {\n    var dataDownload = msg.payload.dataDownload;\n    msg.action = 'normal';\n}\n\nif (msg.payload.dataDownload1) {\n    var dataDownload = msg.payload.dataDownload1;\n    msg.action = 'seperate';\n}\n\nmsg.payload = {\n    \"timestamp\": {\n        \"$gte\": startDate,\n        \"$lte\": endDate\n    },\n    \"device_id\": \"eui-a840416c21881c78\"\n};\n\nmsg.dataDownload = dataDownload;\nmsg.device_id = \"device5\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2190,7 +2287,8 @@
         "y": 1700,
         "wires": [
             [
-                "62b661bb42354d96"
+                "62b661bb42354d96",
+                "063b562d2c8b6208"
             ]
         ]
     },
@@ -2240,7 +2338,8 @@
         "y": 1760,
         "wires": [
             [
-                "b7906842e32ca339"
+                "b7906842e32ca339",
+                "35106a0763f0643c"
             ]
         ]
     },
@@ -2261,7 +2360,8 @@
         "y": 1820,
         "wires": [
             [
-                "683652e61fb6c32a"
+                "683652e61fb6c32a",
+                "a21b6429ee7db35a"
             ]
         ]
     },
@@ -2468,6 +2568,2460 @@
         "wires": []
     },
     {
+        "id": "786ac98442c97dbd",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "",
+        "group": "07177cef4a16e738",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "18b7c18450f89d38"
+            ]
+        ]
+    },
+    {
+        "id": "a162f7827e4eba45",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "07177cef4a16e738",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "f186890926bb32cf"
+            ]
+        ]
+    },
+    {
+        "id": "24a63a3a845b9b18",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Temperature of Soil",
+        "group": "07177cef4a16e738",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d787a026ead01c66",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Water in Soil",
+        "group": "07177cef4a16e738",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62edc8a7a73d5ac5",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Conductivity of Soil",
+        "group": "07177cef4a16e738",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ca135f2c347d9c2",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "name": "Battery Voltage",
+        "group": "07177cef4a16e738",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66b726f81813406e",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "13194d74ba141af5",
+        "group": "07177cef4a16e738",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1160,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e1d0560fe496fb2f",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "",
+        "group": "dcfb4c81b704c5b9",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 480,
+        "wires": [
+            [
+                "4d958da5dde3b87f"
+            ]
+        ]
+    },
+    {
+        "id": "4d8140ddb77db6f8",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "dcfb4c81b704c5b9",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 720,
+        "wires": [
+            [
+                "4ebf79e0bb35e80c"
+            ]
+        ]
+    },
+    {
+        "id": "692a313a9995febf",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Temperature of Soil",
+        "group": "dcfb4c81b704c5b9",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37859277b31c3929",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Water in Soil",
+        "group": "dcfb4c81b704c5b9",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90218ac850cdfa75",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Conductivity of Soil",
+        "group": "dcfb4c81b704c5b9",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "625346b025c599b9",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "name": "Battery Voltage",
+        "group": "dcfb4c81b704c5b9",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b61c98bb5263e9fc",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "220f83ebf102e7bf",
+        "group": "dcfb4c81b704c5b9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1160,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d3607e2a7017495d",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "",
+        "group": "2ace20c313dc6130",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 840,
+        "wires": [
+            [
+                "6138042e238c887a"
+            ]
+        ]
+    },
+    {
+        "id": "828183f93bec7bdf",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "2ace20c313dc6130",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1080,
+        "wires": [
+            [
+                "2986385bc9c2db71"
+            ]
+        ]
+    },
+    {
+        "id": "9da01625e14bc862",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Temperature of Soil",
+        "group": "2ace20c313dc6130",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed843ec4d5a1fba1",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Water in Soil",
+        "group": "2ace20c313dc6130",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a7d838d661e714ea",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Conductivity of Soil",
+        "group": "2ace20c313dc6130",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6706c4602dbb65fc",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "name": "Battery Voltage",
+        "group": "2ace20c313dc6130",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "058035e3adfa90f2",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "899d9b9e2b22d539",
+        "group": "2ace20c313dc6130",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 3",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1160,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "88d5d41b67325d09",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "",
+        "group": "c9e43854125296e0",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1220,
+        "wires": [
+            [
+                "4bebbe95db146bd0"
+            ]
+        ]
+    },
+    {
+        "id": "4c87f51099aa2c0a",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "c9e43854125296e0",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1460,
+        "wires": [
+            [
+                "390be2e866892975"
+            ]
+        ]
+    },
+    {
+        "id": "38a01fcf8fd63456",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Temperature of Soil",
+        "group": "c9e43854125296e0",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97281af6ee6cd475",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Water in Soil",
+        "group": "c9e43854125296e0",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b12104ace572564c",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Conductivity of Soil",
+        "group": "c9e43854125296e0",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "017df30556722f8c",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "name": "Battery Voltage",
+        "group": "c9e43854125296e0",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6628e5521baf231",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "2162d783c16cd16b",
+        "group": "c9e43854125296e0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 4",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1160,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "8de9768da415dad6",
+        "type": "ui_button",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "",
+        "group": "3ab557bf8f377e10",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1600,
+        "wires": [
+            [
+                "652ad9493fbda555"
+            ]
+        ]
+    },
+    {
+        "id": "c6c8965321be71a2",
+        "type": "ui_form",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Select Time",
+        "label": "Select Time",
+        "group": "3ab557bf8f377e10",
+        "order": 7,
+        "width": 4,
+        "height": 5,
+        "options": [
+            {
+                "label": "From",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Download Data",
+                "value": "dataDownload1",
+                "type": "switch",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "endDate": "",
+            "dataDownload1": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 1840,
+        "wires": [
+            [
+                "e08d9d3911020d7e"
+            ]
+        ]
+    },
+    {
+        "id": "512dc37d40698c7b",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Temperature of Soil",
+        "group": "3ab557bf8f377e10",
+        "order": 8,
+        "width": 11,
+        "height": 6,
+        "label": "Temperature of Soil (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "063b562d2c8b6208",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Water in Soil",
+        "group": "3ab557bf8f377e10",
+        "order": 9,
+        "width": 11,
+        "height": 6,
+        "label": "Water in Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35106a0763f0643c",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Conductivity of Soil",
+        "group": "3ab557bf8f377e10",
+        "order": 11,
+        "width": 13,
+        "height": 6,
+        "label": "Conductivity of Soil",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "500",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a21b6429ee7db35a",
+        "type": "ui_chart",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "name": "Battery Voltage",
+        "group": "3ab557bf8f377e10",
+        "order": 12,
+        "width": 13,
+        "height": 6,
+        "label": "Battery Voltage (volt)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b82a7bef292b644",
+        "type": "ui_text",
+        "z": "1c38872debedfd03",
+        "g": "ef945f45d99b1f23",
+        "group": "3ab557bf8f377e10",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Device 5",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "20",
+        "color": "#0f22ae",
+        "x": 1160,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "38faa1b3336dd7a3",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1720,
+        "y": 760,
+        "wires": [
+            [
+                "4d0aa44a432fd785"
+            ]
+        ]
+    },
+    {
+        "id": "4d0aa44a432fd785",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 1910,
+        "y": 760,
+        "wires": [
+            [
+                "024a49e7a8fc037e"
+            ]
+        ]
+    },
+    {
+        "id": "024a49e7a8fc037e",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 760,
+        "wires": [
+            [
+                "fdf207e61c35d108"
+            ]
+        ]
+    },
+    {
+        "id": "fdf207e61c35d108",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2260,
+        "y": 760,
+        "wires": [
+            [
+                "2f3b76bb4e07f3ef"
+            ]
+        ]
+    },
+    {
+        "id": "2f3b76bb4e07f3ef",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2460,
+        "y": 760,
+        "wires": [
+            [
+                "243cf21f76882347"
+            ]
+        ]
+    },
+    {
+        "id": "243cf21f76882347",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "b0ba5a219f0523bb",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2660,
+        "y": 760,
+        "wires": [
+            [
+                "b31af473f6b7a5c7"
+            ]
+        ]
+    },
+    {
+        "id": "b31af473f6b7a5c7",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 42",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2820,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "d7a6e55d7b034ba4",
+        "type": "http in",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "url": "soil_sensor",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1540,
+        "y": 1160,
+        "wires": [
+            [
+                "1a0c985ce93243e7"
+            ]
+        ]
+    },
+    {
+        "id": "1a0c985ce93243e7",
+        "type": "file in",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": ".node-red/data/static_files/soil_sensor.csv",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1880,
+        "y": 1160,
+        "wires": [
+            [
+                "c62ed3556a7ec667"
+            ]
+        ]
+    },
+    {
+        "id": "c62ed3556a7ec667",
+        "type": "http response",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Content-Disposition": "attachment; filename=\"Soil_sensor_data.csv\"",
+            "Content-Type": "text/csv"
+        },
+        "x": 2150,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "6d78a181feba120c",
+        "type": "switch",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "property": "action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "normal",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "seperate",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1510,
+        "y": 860,
+        "wires": [
+            [
+                "38faa1b3336dd7a3"
+            ],
+            [
+                "4a5bb8b987688acf"
+            ]
+        ]
+    },
+    {
+        "id": "4a5bb8b987688acf",
+        "type": "switch",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "property": "device_id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "device1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "device2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "device3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "device4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "device5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 1670,
+        "y": 980,
+        "wires": [
+            [
+                "01f5611c48d6f503"
+            ],
+            [
+                "f10e5aa8c862e2f2"
+            ],
+            [
+                "949cc41721da5114"
+            ],
+            [
+                "46fe5cf164364a12"
+            ],
+            [
+                "5bae6dcf05480f7e"
+            ]
+        ]
+    },
+    {
+        "id": "01f5611c48d6f503",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 900,
+        "wires": [
+            [
+                "972ecd92acbc7d88"
+            ]
+        ]
+    },
+    {
+        "id": "972ecd92acbc7d88",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2050,
+        "y": 900,
+        "wires": [
+            [
+                "b64b2b5b873375e9"
+            ]
+        ]
+    },
+    {
+        "id": "b64b2b5b873375e9",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 900,
+        "wires": [
+            [
+                "572498a8012547fa"
+            ]
+        ]
+    },
+    {
+        "id": "572498a8012547fa",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2400,
+        "y": 900,
+        "wires": [
+            [
+                "c4d5d35ae9a900f6"
+            ]
+        ]
+    },
+    {
+        "id": "c4d5d35ae9a900f6",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2600,
+        "y": 900,
+        "wires": [
+            [
+                "e814be0b9c98937c"
+            ]
+        ]
+    },
+    {
+        "id": "e814be0b9c98937c",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "07177cef4a16e738",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2800,
+        "y": 900,
+        "wires": [
+            [
+                "a4f776808a17223b"
+            ]
+        ]
+    },
+    {
+        "id": "a4f776808a17223b",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 49",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f10e5aa8c862e2f2",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 940,
+        "wires": [
+            [
+                "f5b8e8f0d35b2f48"
+            ]
+        ]
+    },
+    {
+        "id": "f5b8e8f0d35b2f48",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2050,
+        "y": 940,
+        "wires": [
+            [
+                "ecd0ea69624c7a4c"
+            ]
+        ]
+    },
+    {
+        "id": "ecd0ea69624c7a4c",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 940,
+        "wires": [
+            [
+                "19e2777a21dfe4d8"
+            ]
+        ]
+    },
+    {
+        "id": "19e2777a21dfe4d8",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2400,
+        "y": 940,
+        "wires": [
+            [
+                "fd6c2f491ebde1aa"
+            ]
+        ]
+    },
+    {
+        "id": "fd6c2f491ebde1aa",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2600,
+        "y": 940,
+        "wires": [
+            [
+                "0d50b60d7cfa0c38"
+            ]
+        ]
+    },
+    {
+        "id": "0d50b60d7cfa0c38",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "dcfb4c81b704c5b9",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2800,
+        "y": 940,
+        "wires": [
+            [
+                "27e73adfae11aaaa"
+            ]
+        ]
+    },
+    {
+        "id": "27e73adfae11aaaa",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 50",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "949cc41721da5114",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 980,
+        "wires": [
+            [
+                "2ed422b6c49772ee"
+            ]
+        ]
+    },
+    {
+        "id": "2ed422b6c49772ee",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2050,
+        "y": 980,
+        "wires": [
+            [
+                "cf6fba20d276b9e3"
+            ]
+        ]
+    },
+    {
+        "id": "cf6fba20d276b9e3",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 980,
+        "wires": [
+            [
+                "2a6f1232be56a62b"
+            ]
+        ]
+    },
+    {
+        "id": "2a6f1232be56a62b",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2400,
+        "y": 980,
+        "wires": [
+            [
+                "25fa7129fcf2a7f1"
+            ]
+        ]
+    },
+    {
+        "id": "25fa7129fcf2a7f1",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2600,
+        "y": 980,
+        "wires": [
+            [
+                "1a62828e817fcf5c"
+            ]
+        ]
+    },
+    {
+        "id": "1a62828e817fcf5c",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "2ace20c313dc6130",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2800,
+        "y": 980,
+        "wires": [
+            [
+                "5e40d0f8190d8c7d"
+            ]
+        ]
+    },
+    {
+        "id": "5e40d0f8190d8c7d",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 51",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "46fe5cf164364a12",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 1020,
+        "wires": [
+            [
+                "29994ec349a97217"
+            ]
+        ]
+    },
+    {
+        "id": "29994ec349a97217",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2050,
+        "y": 1020,
+        "wires": [
+            [
+                "bdd61be740b5461a"
+            ]
+        ]
+    },
+    {
+        "id": "bdd61be740b5461a",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 1020,
+        "wires": [
+            [
+                "6bccc0b70c2e7b45"
+            ]
+        ]
+    },
+    {
+        "id": "6bccc0b70c2e7b45",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2400,
+        "y": 1020,
+        "wires": [
+            [
+                "a58509c947bb951e"
+            ]
+        ]
+    },
+    {
+        "id": "a58509c947bb951e",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2600,
+        "y": 1020,
+        "wires": [
+            [
+                "c2209a5bc9bce3cc"
+            ]
+        ]
+    },
+    {
+        "id": "c2209a5bc9bce3cc",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "c9e43854125296e0",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2800,
+        "y": 1020,
+        "wires": [
+            [
+                "c686724c5f6a4f0e"
+            ]
+        ]
+    },
+    {
+        "id": "c686724c5f6a4f0e",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 52",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "5bae6dcf05480f7e",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "Data Download",
+        "func": "var results = msg.payload;\nvar dataDownload = msg.dataDownload;\n\nvar processedData = [];\n\nif (dataDownload) {\n    for (var i = 0; i < results.length; i++) {\n        processedData.push({\n            device_id: results[i].device_id,\n            time: results[i].timestamp,\n            temp_soil: results[i].data.temp_soil,\n            water_soil: results[i].data.water_soil,\n            battery_voltage: results[i].data.battery_voltage,\n            conduct_soil: results[i].data.conduct_soil,\n            mod: results[i].data.mod,\n            i_flag: results[i].data.i_flag,\n            s_flag: results[i].data.s_flag\n        });\n    }\n}\n\nmsg.payload = processedData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 1060,
+        "wires": [
+            [
+                "1c48984875253a5a"
+            ]
+        ]
+    },
+    {
+        "id": "1c48984875253a5a",
+        "type": "csv",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 2050,
+        "y": 1060,
+        "wires": [
+            [
+                "8cb6f5e0dedeb4a3"
+            ]
+        ]
+    },
+    {
+        "id": "8cb6f5e0dedeb4a3",
+        "type": "function",
+        "z": "1c38872debedfd03",
+        "name": "File Path",
+        "func": "msg.path = '.node-red/data/static_files/soil_sensor.csv';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 1060,
+        "wires": [
+            [
+                "4cf01fe581f8189e"
+            ]
+        ]
+    },
+    {
+        "id": "4cf01fe581f8189e",
+        "type": "file",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 2400,
+        "y": 1060,
+        "wires": [
+            [
+                "2543b7814c797125"
+            ]
+        ]
+    },
+    {
+        "id": "2543b7814c797125",
+        "type": "trigger",
+        "z": "1c38872debedfd03",
+        "name": "",
+        "op1": "open",
+        "op2": "reset",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 2600,
+        "y": 1060,
+        "wires": [
+            [
+                "7f98dba17965d922"
+            ]
+        ]
+    },
+    {
+        "id": "7f98dba17965d922",
+        "type": "ui_template",
+        "z": "1c38872debedfd03",
+        "group": "3ab557bf8f377e10",
+        "name": "",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(msg) {\n            if (msg.payload == \"open\") {\n                window.open(\"http://78.46.151.191:1880/soil_sensor\",\"_blank\");\n                \n            }\n        })\n    })(scope);\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2800,
+        "y": 1060,
+        "wires": [
+            [
+                "cd13e3ca73a8836e"
+            ]
+        ]
+    },
+    {
+        "id": "cd13e3ca73a8836e",
+        "type": "debug",
+        "z": "1c38872debedfd03",
+        "name": "debug 53",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 1060,
+        "wires": []
+    },
+    {
         "id": "6c246c6eea0c6943",
         "type": "mongodb4-client",
         "name": "temp_sensor",
@@ -2547,6 +5101,61 @@
         "className": ""
     },
     {
+        "id": "07177cef4a16e738",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "0430059312e83e8c",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dcfb4c81b704c5b9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "5cee6376e1eb2a66",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ace20c313dc6130",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "58ee202118ef70c8",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c9e43854125296e0",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "a76c2a7653d64d6b",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ab557bf8f377e10",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "b0838b6eeeaeb895",
+        "order": 1,
+        "disp": false,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "f806ccbe1d3a8e71",
         "type": "ui_tab",
         "name": "Soil Sensor Dashboard",
@@ -2554,5 +5163,50 @@
         "order": 6,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "0430059312e83e8c",
+        "type": "ui_tab",
+        "name": "Device1",
+        "icon": "dashboard",
+        "order": 13,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "5cee6376e1eb2a66",
+        "type": "ui_tab",
+        "name": "Device2",
+        "icon": "dashboard",
+        "order": 14,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "58ee202118ef70c8",
+        "type": "ui_tab",
+        "name": "Device3",
+        "icon": "dashboard",
+        "order": 15,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "a76c2a7653d64d6b",
+        "type": "ui_tab",
+        "name": "Device4",
+        "icon": "dashboard",
+        "order": 16,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "b0838b6eeeaeb895",
+        "type": "ui_tab",
+        "name": "Device5",
+        "icon": "dashboard",
+        "order": 17,
+        "disabled": false,
+        "hidden": true
     }
 ]
